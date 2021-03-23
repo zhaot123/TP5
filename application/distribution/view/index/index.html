@@ -1,0 +1,292 @@
+{extend name='public/base' /}
+{block name='content'}
+{include file='public/content_header' /}
+<section class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box box-primary">
+                <!-- 表单头部 -->
+                <div class="box-header with-border">
+                    <div class="btn-group">
+                        <a class="btn flat btn-sm btn-default BackButton">
+                            <i class="fa fa-arrow-left"></i>
+                            返回
+                        </a>
+                    </div>
+                </div>
+                <!-- 表单 -->
+                <form id="dataForm" class="form-horizontal dataForm" action="" method="post"
+                      enctype="multipart/form-data">
+
+
+                    <div class="form-group">
+                        <label for="privacy" class="col-sm-2 control-label">隐私协议</label>
+                        <div class="col-sm-10">
+                            <script id="privacy" name="privacy" type="text/plain">{$data.privacy|raw|default=''}
+                                </script>
+                        </div>
+                    </div>
+                    <script>
+                        UE.delEditor('privacy');
+                        var UE_privacy = UE.getEditor('privacy', {
+                            serverUrl: UEServer,
+                            initialFrameWidth:860, //初始化宽度
+                            initialFrameHeight:420, //初始化高度
+                        });
+                    </script>
+                    <div class="form-group">
+                        <label for="user" class="col-sm-2 control-label">用户协议</label>
+                        <div class="col-sm-10">
+                            <script id="user" name="user" type="text/plain">{$data.user|raw|default=''}
+                                </script>
+                        </div>
+                    </div>
+                    <script>
+                        UE.delEditor('user');
+                        var UE_user = UE.getEditor('user', {
+                            serverUrl: UEServer,
+                            initialFrameWidth:860, //初始化宽度
+                            initialFrameHeight:420, //初始化高度
+                        });
+                    </script>
+
+                        <div class="form-group">
+                            <label for="later" class="col-sm-2 control-label">延迟抢单概率(填写50视为50%)</label>
+                            <div class="col-sm-10 col-md-4">
+                                <input id="later" name="later" value="{$data.later|default=''}"
+                                       placeholder="请输入延迟抢单概率" type="number" class="form-control field-text">
+                            </div>
+                        </div>
+                    <div class="form-group">
+                        <label for="maxDayOrder" class="col-sm-2 control-label">每日最大订单数</label>
+                        <div class="col-sm-10 col-md-4">
+                            <input id="maxDayOrder" name="maxDayOrder" value="{$data.maxDayOrder|default=''}"
+                                   placeholder="请输入每日最大订单数" type="number" class="form-control field-text">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="meetMoney" class="col-sm-2 control-label">满多少钱可以提现</label>
+                        <div class="col-sm-10 col-md-4">
+                            <input id="meetMoney" name="maxDayCancelOrder" value="{$data.meetMoney|default=''}"
+                                   placeholder="请输入满多少钱可以提现" type="number" class="form-control field-text">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="oneChange" class="col-sm-2 control-label">一金豆可换金额</label>
+                        <div class="col-sm-10 col-md-4">
+                            <input id="oneChange" name="oneChange" value="{$data.oneChange|default=''}"
+                                   placeholder="请输入一金豆可换金额" type="number" class="form-control field-text">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="rate_withdraw" class="col-sm-2 control-label">提现手续费</label>
+                        <div class="col-sm-10 col-md-4">
+                            <input id="rate_withdraw" name="rate_withdraw" value="{$data.rate_withdraw|default=''}"
+                                   placeholder="请输入提现手续费" type="number" class="form-control field-text">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="reward_show" class="col-sm-2 control-label">积分说明</label>
+                        <div class="col-sm-10">
+                            <script id="reward_show" name="reward_show" type="text/plain">{$data.reward_show|raw|default=''}
+                                </script>
+                        </div>
+                    </div>
+                    <script>
+                        UE.delEditor('reward_show');
+                        var UE_reward_show = UE.getEditor('reward_show', {
+                            serverUrl: UEServer,
+                            initialFrameWidth:860, //初始化宽度
+                            initialFrameHeight:420, //初始化高度
+                        });
+                    </script>
+                    <div class="form-group">
+                        <label for="get_order" class="col-sm-2 control-label">接单流程</label>
+                        <div class="col-sm-10">
+                            <script id="get_order" name="get_order" type="text/plain">{$data.get_order|raw|default=''}
+                                </script>
+                        </div>
+                    </div>
+                    <script>
+                        UE.delEditor('get_order');
+                        var UE_get_order = UE.getEditor('get_order', {
+                            serverUrl: UEServer,
+                            initialFrameWidth:860, //初始化宽度
+                            initialFrameHeight:420, //初始化高度
+                        });
+                    </script>
+                    <div class="form-group">
+                        <label for="requirement" class="col-sm-2 control-label">要求示例</label>
+                        <div class="col-sm-10 col-md-4">
+                            <input id="requirement" name="requirement" placeholder="请上传要求示例" {if
+                                   isset($data.requirement)}data-initial-preview="{$data.requirement}" {/if} type="file"
+                            class="form-control field-image" >
+                        </div>
+
+                    </div>
+                    <script>
+                        $('#requirement').fileinput({
+                            language: 'zh',
+                            overwriteInitial: true,
+                            browseLabel: '浏览',
+                            initialPreviewAsData: true,
+                            dropZoneEnabled: false,
+                            showUpload: false,
+                            showRemove: false,
+                            allowedFileTypes: ['image'],
+                            maxFileSize: 10240,
+                        });
+                    </script>
+                    <div class="form-group">
+                        <label for="ali_pay" class="col-sm-2 control-label">支付宝付款截图示例</label>
+                        <div class="col-sm-10 col-md-4">
+                            <input id="ali_pay" name="ali_pay" placeholder="请上传支付宝付款截图" {if
+                                   isset($data.ali_pay)}data-initial-preview="{$data.ali_pay}" {/if} type="file"
+                            class="form-control field-image" >
+                        </div>
+
+                    </div>
+                    <script>
+                        $('#ali_pay').fileinput({
+                            language: 'zh',
+                            overwriteInitial: true,
+                            browseLabel: '浏览',
+                            initialPreviewAsData: true,
+                            dropZoneEnabled: false,
+                            showUpload: false,
+                            showRemove: false,
+                            allowedFileTypes: ['image'],
+                            maxFileSize: 10240,
+                        });
+                    </script>
+                    <div class="form-group">
+                        <label for="id_bank" class="col-sm-2 control-label">身份证和银行卡示例</label>
+                        <div class="col-sm-10 col-md-4">
+                            <input id="id_bank" name="id_bank" placeholder="请上传身份证和银行卡示例" {if
+                                   isset($data.id_bank)}data-initial-preview="{$data.id_bank}" {/if} type="file"
+                            class="form-control field-image" >
+                        </div>
+
+                    </div>
+                    <script>
+                        $('#id_bank').fileinput({
+                            language: 'zh',
+                            overwriteInitial: true,
+                            browseLabel: '浏览',
+                            initialPreviewAsData: true,
+                            dropZoneEnabled: false,
+                            showUpload: false,
+                            showRemove: false,
+                            allowedFileTypes: ['image'],
+                            maxFileSize: 10240,
+                        });
+                    </script>
+                    <div class="form-group">
+                        <label for="real" class="col-sm-2 control-label">身份证实名示例</label>
+                        <div class="col-sm-10 col-md-4">
+                            <input id="real" name="real" placeholder="请上传身份证实名示例" {if
+                                   isset($data.real)}data-initial-preview="{$data.real}" {/if} type="file"
+                            class="form-control field-image" >
+                        </div>
+
+                    </div>
+                    <script>
+                        $('#real').fileinput({
+                            language: 'zh',
+                            overwriteInitial: true,
+                            browseLabel: '浏览',
+                            initialPreviewAsData: true,
+                            dropZoneEnabled: false,
+                            showUpload: false,
+                            showRemove: false,
+                            allowedFileTypes: ['image'],
+                            maxFileSize: 10240,
+                        });
+                    </script>
+                    <div class="form-group">
+                        <label for="my_ali" class="col-sm-2 control-label">我的支付宝示例</label>
+                        <div class="col-sm-10 col-md-4">
+                            <input id="my_ali" name="my_ali" placeholder="请上传我的支付宝示例" {if
+                                   isset($data.my_ali)}data-initial-preview="{$data.my_ali}" {/if} type="file"
+                            class="form-control field-image" >
+                        </div>
+
+                    </div>
+                    <script>
+                        $('#my_ali').fileinput({
+                            language: 'zh',
+                            overwriteInitial: true,
+                            browseLabel: '浏览',
+                            initialPreviewAsData: true,
+                            dropZoneEnabled: false,
+                            showUpload: false,
+                            showRemove: false,
+                            allowedFileTypes: ['image'],
+                            maxFileSize: 10240,
+                        });
+                    </script>
+
+
+
+
+
+                    <!-- 表单底部 -->
+                    <div class="box-footer">
+                        {:token()}
+                        <div class="col-sm-2">
+                        </div>
+                        <div class="col-sm-10 col-md-4">
+                            {if !isset($data)}
+<!--                            <div class="btn-group pull-right">-->
+<!--                                <label class="createContinue">-->
+<!--                                    <input type="checkbox" value="1" id="_create" name="_create"-->
+<!--                                           title="继续添加数据">继续添加</label>-->
+<!--                            </div>-->
+                            {/if}
+                            <div class="btn-group">
+                                <button type="submit" class="btn flat btn-info dataFormSubmit">
+                                    保存
+                                </button>
+                            </div>
+                            <div class="btn-group">
+                                <button type="reset" class="btn flat btn-default dataFormReset">
+                                    重置
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    /** 表单验证 **/
+    $('#dataForm').validate({
+        rules: {
+
+            'title': {
+                required: true,
+            },
+            'content': {
+                required: true,
+            },
+
+
+
+
+        },
+        messages: {
+            'title': {
+                required: "标题不能为空",
+            },
+            'content': {
+                required: "内容不能为空",
+            },
+
+
+
+        }
+    });
+</script>
+{/block}

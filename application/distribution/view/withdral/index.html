@@ -1,0 +1,348 @@
+{extend name="public/base" /}
+{block name='content'}
+{include file='public/content_header' /}
+<!--数据列表页面-->
+<section class="content">
+
+    <!--顶部搜索筛选-->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box">
+                <div class="box-body">
+                    <form class="form-inline searchForm" id="searchForm" action="{:url('index')}" method="GET">
+                        <div class="form-group">
+                            <input value="{$_keywords ? $_keywords : '' ;}"
+                                   name="_keywords" id="_keywords" class="form-control input-sm" placeholder="请输入关键词">
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-sm btn-primary" type="submit"><i class="fa fa-search"></i> 查询
+                            </button>
+                        </div>
+                        <div class="form-group">
+                            <button onclick="clearSearchForm()" class="btn btn-sm btn-default" type="button"><i
+                                    class="fa  fa-eraser"></i> 清空查询
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box">
+
+                <!--数据列表顶部-->
+                <div class="box-header">
+                    <div>
+
+                        <a class="btn btn-danger btn-sm AjaxButton" data-toggle="tooltip" title="删除选中数据"
+                           data-confirm-title="删除确认" data-confirm-content="您确定要删除选中的数据吗？" data-id="checked"
+                           data-url="{:url('del')}">
+                            <i class="fa fa-trash"></i> 删除
+                        </a>
+
+
+                    </div>
+                </div>
+
+                <div class="box-body table-responsive">
+                    <table class="table table-hover table-bordered datatable" width="100%">
+                        <thead>
+                        <tr>
+                            <th>
+                                <input id="dataCheckAll" type="checkbox" onclick="checkAll(this)" class="checkbox"
+                                       placeholder="全选/取消">
+                            </th>
+                            <th>ID</th>
+                            <th>用户ID</th>
+                            <th>用户名称</th>
+                            <th>提现金额</th>
+                            <th>实际提现金额</th>
+                            <th>状态</th>
+                            <th>提现方式</th>
+                            <th>提现账号</th>
+                            <th>提现名称</th>
+                            <th>拒绝原因</th>
+                            <th>提现/拒绝时间</th>
+                            <th>申请时间</th>
+
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {foreach name="data" id="item"}
+                        <tr>
+                            <td>
+                                <input type="checkbox" onclick="checkThis(this)" name="data-checkbox"
+                                       data-id="{$item.id}" class="checkbox data-list-check" value="{$item.id}"
+                                       placeholder="选择/取消">
+                            </td>
+                            <td>{$item.id}</td>
+                            <td>{$item.user.id}</td>
+                            <td>{$item.user.user_name}</td>
+                            <td>{$item.price}</td>
+                            <td>{$item.price_true}</td>
+                            <td>
+                                {if condition="$item.status == 1"}<input class="btn btn-primary"  type="button" value="审核中">{/if}
+                                {if condition="$item.status == 0"}<input class=" alert-danger " type="button"  value="未通过">{/if}
+                                {if condition="$item.status == 2"}<input class=" alert-success " type="button"  value="审核通过">{/if}
+                                {if condition="$item.status == 3"}<input class=" alert-success " type="button"  value="已打款">{/if}
+
+                            </td>
+                            <td>{if $item.type == 1}微信{elseif $item.type == 2}支付宝{else}银联{/if}</td>
+                            <td>{$item.number}</td>
+                            <td>{$item.name}</td>
+<!--                            <td>-->
+<!--                                {if condition = "!empty($item.head_img)"}-->
+<!--                                <img alt=""  src="{$item.code}" class ="pimg" style="height: 80px">-->
+<!--                                <div id="outerdiv" style="position:fixed;top:0;left:0;background:rgba(0,0,0,0.7);z-index:2;width:100%;height:100%;display:none;">-->
+<!--                                    <div id="innerdiv" style="position:absolute;">-->
+<!--                                        <img id="bigimg" style="border:5px solid #fff;" src="" />-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                {else}-->
+<!--                                {/if}-->
+<!--                            </td>-->
+                            <td>{$item.content|default=''}</td>
+                            <td>{$item.pass_time|default=''}</td>
+
+                            <td>{if isset($item.create_time) } {$item.create_time}{/if}</td>
+                            <td>
+                                {if condition= "$item.status == 2"}
+                                <a href="#"
+                                   class="btn btn-success btn-xs"  onclick="pass(id = {$item.id})" title="打款" data-toggle="tooltip">
+                                    <i class="fa fa-check"></i>
+                                </a>
+                                {/if}
+                                {if condition="$item.status == 1"}
+
+                                <a href="#"
+                                   class="btn btn-success btn-xs"  onclick="pass1(id = {$item.id})" title="确认" data-toggle="tooltip">
+                                    <i class="fa fa-check"></i>
+                                </a>
+                                <a href="#"
+                                   class="btn btn-danger btn-xs"  onclick="unpass(id = {$item.id})" title="反驳" data-toggle="tooltip">
+                                    <i class="fa fa-times"></i>
+                                </a>
+
+                                {/if}
+                            </td>
+                            <script>
+                                function pass1(id){
+                                    $.post("/distribution/withdral/pass1",{id:id},function(data) {
+                                        if (data == 1) {
+                                            layer.msg("操作成功");
+
+                                            lock = true;
+                                            setTimeout(function () {
+                                                window.location.reload();
+                                            }, 2000);
+
+
+                                        } else {
+                                            layer.msg("操作失败");
+
+
+                                        }
+                                    })
+
+                                }
+
+
+                                function pass(id){
+
+                                    lock = false;
+                                    layer.open({
+                                        type: 1,
+                                        title: '通过描述',
+                                        area: ['500px', '300px'],
+                                        shade: 0.4,
+                                        btn: ['确定', '取消'],
+                                        content :"<div class=\"form-group\">\n" +
+                                            "                            <label for=\"content\" class=\"col-sm-4 control-label\">通过描述</label>\n" +
+                                            "                            <div class=\" col-sm-6\">\n" +
+                                            "                                <input id=\"content\" name=\"content\" value=\"{$data.content|default=''}\" placeholder=\"请输入描述\" value=\"成功\"\n"+
+                                            "                                       type=\"text\" maxlength=\"11\" class=\"form-control field-mobile\" style='width:300px;height: 150px'>\n" +
+                                            "                            </div>\n" +
+                                            "                        </div>",
+                                        scrollbar: false ,
+                                        yes: function(index){
+                                            if (lock != true){
+                                                lock =true;
+                                                $(".layui-layer-btn0").attr('disabled',"disabled");
+                                                money = $("#coin").val();
+                                                content = $("#content").val();
+                                                $.post("/distribution/withdral/pass",{id:id,content:content},function(data){
+                                                    if(data  == 1){
+                                                        layer.msg("操作成功");
+
+                                                        lock =true;
+                                                        setTimeout(function(){
+                                                            window.location.reload();
+                                                        }, 2000);
+
+
+                                                    }
+                                                    if (data == 2){
+                                                        layer.msg('操作失败');
+                                                        lock =true;
+                                                        setTimeout(function(){
+                                                            window.location.reload();
+                                                        }, 2000);
+                                                    }
+                                                    if (data == 3){
+                                                        layer.msg('日志生成失败');
+                                                        lock =true;
+                                                        setTimeout(function(){
+                                                            window.location.reload();
+                                                        }, 2000);
+                                                    }
+
+
+                                                })
+                                            }
+                                        },
+
+                                    });
+                                }
+                            </script>
+                            <script>
+                                function unpass(id){
+
+                                    lock = false;
+                                    layer.open({
+                                        type: 1,
+                                        title: '反驳描述',
+                                        area: ['500px', '300px'],
+                                        shade: 0.4,
+                                        btn: ['确定', '取消'],
+                                        content :"<div class=\"form-group\">\n" +
+                                            "                            <label for=\"content\" class=\"col-sm-4 control-label\">反驳描述</label>\n" +
+                                            "                            <div class=\" col-sm-6\">\n" +
+                                            "                                <input id=\"content\" name=\"content\" value=\"{$data.content|default=''}\" placeholder=\"请输入描述\"\n" +
+                                            "                                       type=\"text\" maxlength=\"11\" class=\"form-control field-mobile\" style='width:300px;height: 150px'>\n" +
+                                            "                            </div>\n" +
+                                            "                        </div>",
+                                        scrollbar: false ,
+                                        yes: function(index){
+                                            if (lock != true){
+                                                lock =true;
+                                                $(".layui-layer-btn0").attr('disabled',"disabled");
+                                                money = $("#coin").val();
+                                                content = $("#content").val();
+                                                $.post("/distribution/withdral/unpass",{id:id,content:content},function(data){
+                                                    if(data  == 1){
+                                                        layer.msg("操作成功");
+
+                                                        lock =true;
+                                                        setTimeout(function(){
+                                                            window.location.reload();
+                                                        }, 2000);
+
+
+                                                    }
+                                                    if (data == 2){
+                                                        layer.msg('操作失败');
+                                                        lock =true;
+                                                        setTimeout(function(){
+                                                            window.location.reload();
+                                                        }, 2000);
+                                                    }
+                                                    if (data == 3){
+                                                        layer.msg('日志生成失败');
+                                                        lock =true;
+                                                        setTimeout(function(){
+                                                            window.location.reload();
+                                                        }, 2000);
+                                                    }
+
+                                                })
+                                            }
+                                        },
+
+                                    });
+                                }
+                            </script>
+
+                        </tr>
+                        {/foreach}
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- 数据列表底部 -->
+                <div class="box-footer">
+                    {$page|raw}
+                    <label class="control-label pull-right" style="margin-right: 10px; font-weight: 100;">
+                        <small>共{$total}条记录</small>&nbsp;
+                        <small>每页显示</small>
+                        &nbsp;
+                        <select class="input-sm" onchange="changePerPage(this)">
+                            <option value="10" {if $admin.per_page==10}selected{/if}>10</option>
+                            <option value="20" {if $admin.per_page==20}selected{/if}>20</option>
+                            <option value="30" {if $admin.per_page==30}selected{/if}>30</option>
+                            <option value="50" {if $admin.per_page==50}selected{/if}>50</option>
+                            <option value="100" {if $admin.per_page==100}selected{/if}>100</option>
+                        </select>
+                        &nbsp;
+                        <small>条记录</small>
+                    </label>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</section>
+<script>
+    $(function(){
+        $(".pimg").click(function(){
+            var _this = $(this);//将当前的pimg元素作为_this传入函数
+            imgShow("#outerdiv", "#innerdiv", "#bigimg", _this);
+        });
+    });
+    function imgShow(outerdiv, innerdiv, bigimg, _this){
+        var src = _this.attr("src");//获取当前点击的pimg元素中的src属性
+        $(bigimg).attr("src", src);//设置#bigimg元素的src属性
+
+        /*获取当前点击图片的真实大小，并显示弹出层及大图*/
+
+        $("<img/>").attr("src",src).on('load',function(){
+            var windowW = $(window).width();//获取当前窗口宽度
+            var windowH = $(window).height();//获取当前窗口高度
+            var realWidth = this.width;//获取图片真实宽度
+            var realHeight = this.height;//获取图片真实高度
+            var imgWidth, imgHeight;
+            var scale = 0.8;//缩放尺寸，当图片真实宽度和高度大于窗口宽度和高度时进行缩放
+
+            if (realHeight > windowH * scale) { //判断图片高度
+                imgHeight = windowH * scale; //如大于窗口高度，图片高度进行缩放
+                imgWidth = imgHeight / realHeight * realWidth; //等比例缩放宽度
+                if (imgWidth > windowW * scale) { //如宽度扔大于窗口宽度
+                    imgWidth = windowW * scale; //再对宽度进行缩放
+                }
+            } else if (realWidth > windowW * scale) { //如图片高度合适，判断图片宽度
+                imgWidth = windowW * scale; //如大于窗口宽度，图片宽度进行缩放
+                imgHeight = imgWidth / realWidth * realHeight; //等比例缩放高度
+            } else { //如果图片真实高度和宽度都符合要求，高宽不变
+                imgWidth = realWidth;
+                imgHeight = realHeight;
+            }
+            $(bigimg).css("width",imgWidth);//以最终的宽度对图片缩放
+
+            var w = (windowW-imgWidth)/2;//计算图片与窗口左边距
+            var h = (windowH-imgHeight)/2;//计算图片与窗口上边距
+            $(innerdiv).css({"top":h, "left":w});//设置#innerdiv的top和left属性
+            $(outerdiv).fadeIn("fast");//淡入显示#outerdiv及.pimg
+        })
+
+        $("#outerdiv").click(function(){
+            $(this).fadeOut("fast");
+        })
+    }
+
+</script>
+
+{/block}

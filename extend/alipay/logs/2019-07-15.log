@@ -1,0 +1,77 @@
+[2019-07-15 05:42:26][info] 验签失败
+[2019-07-15 05:43:20][info] 验签失败
+[2019-07-15 05:43:20][info] 验签失败
+[2019-07-15 05:43:20][info] 验签失败
+[2019-07-15 05:46:01][debug] call back:
+[2019-07-15 05:46:01][info] 验签失败
+[2019-07-15 05:46:28][debug] call back:
+[2019-07-15 05:47:12][debug] call back:
+[2019-07-15 05:47:46][debug] call back:
+[2019-07-15 05:48:07][debug] call back:
+[2019-07-15 05:50:23][debug] call back:
+[2019-07-15 05:56:31][debug] call back:
+[2019-07-15 06:41:07][debug] call back:
+[2019-07-15 06:41:24][debug] call back:
+[2019-07-15 06:42:07][debug] call back:
+[2019-07-15 06:42:34][debug] call back:
+[2019-07-15 06:42:35][debug] call back:
+[2019-07-15 06:42:35][debug] call back:
+[2019-07-15 06:42:35][debug] call back:
+[2019-07-15 06:45:27][debug] call back:
+[2019-07-15 06:49:59][debug] call back:
+[2019-07-15 06:51:50][debug] call back:
+[2019-07-15 06:51:51][debug] call back:
+[2019-07-15 06:51:51][debug] call back:
+[2019-07-15 06:52:16][debug] call back:
+[2019-07-15 06:52:16][info] 验签失败
+[2019-07-15 06:52:30][debug] call back:
+[2019-07-15 06:52:30][info] 验签失败
+[2019-07-15 06:53:05][debug] call back:
+[2019-07-15 06:59:10][debug] call back:
+[2019-07-15 06:59:16][debug] call back:
+[2019-07-15 06:59:16][info] 验签失败
+[2019-07-15 07:01:26][debug] call back:
+[2019-07-15 07:01:53][debug] call back:
+[2019-07-15 07:02:20][debug] call back:
+[2019-07-15 07:05:19][debug] call back:
+[2019-07-15 07:05:19][info] 验签失败
+[2019-07-15 07:05:20][debug] call back:
+[2019-07-15 07:05:20][info] 验签失败
+[2019-07-15 07:05:20][debug] call back:
+[2019-07-15 07:05:20][info] 验签失败
+[2019-07-15 07:05:20][debug] call back:
+[2019-07-15 07:05:20][info] 验签失败
+[2019-07-15 07:05:21][debug] call back:
+[2019-07-15 07:05:21][info] 验签失败
+[2019-07-15 07:05:21][debug] call back:
+[2019-07-15 07:05:21][info] 验签失败
+[2019-07-15 07:05:39][debug] call back:
+[2019-07-15 07:27:57][debug] call back:
+[2019-07-15 07:28:06][debug] call back:
+[2019-07-15 07:28:44][debug] call back:
+[2019-07-15 07:28:45][debug] call back:
+[2019-07-15 07:29:00][debug] call back:
+[2019-07-15 07:54:12][debug] call back:
+[2019-07-15 07:54:12][info] 验签失败
+[2019-07-15 07:56:04][debug] call back:
+[2019-07-15 07:56:04][info] 验签失败
+[2019-07-15 07:56:04][debug] call back:
+[2019-07-15 07:56:04][info] 验签失败
+[2019-07-15 07:56:04][debug] call back:
+[2019-07-15 07:56:04][info] 验签失败
+[2019-07-15 08:40:21][info] result:1
+[2019-07-15 08:40:21][info] $result:1
+[2019-07-15 08:40:21][info] 2
+[2019-07-15 08:40:21][info] SQLSTATE[HY000] [1045] Access denied for user 'zs'@'localhost' (using password: YES)
+[2019-07-15 08:41:19][info] result:1
+[2019-07-15 08:41:19][info] $result:1
+[2019-07-15 08:41:19][info] 2
+[2019-07-15 08:41:19][info] SQLSTATE[HY000] [1045] Access denied for user 'zs'@'localhost' (using password: YES)
+[2019-07-15 08:41:39][info] result:1
+[2019-07-15 08:41:39][info] $result:1
+[2019-07-15 08:41:39][info] 2
+[2019-07-15 08:41:39][info] SQLSTATE[HY000] [1045] Access denied for user 'zs'@'localhost' (using password: YES)
+[2019-07-15 08:41:59][info] result:1
+[2019-07-15 08:41:59][info] $result:1
+[2019-07-15 08:41:59][info] 2
+[2019-07-15 08:41:59][info] SQLSTATE[HY000] [1045] Access denied for user 'zs'@'localhost' (using password: YES)

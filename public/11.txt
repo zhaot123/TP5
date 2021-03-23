@@ -1,0 +1,1465 @@
+
+
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="gbk" />
+    <meta name="renderer" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    
+<script>
+    (function(w,d){
+    try{
+        var l,url='//mdskip.taobao.com/core/initItemDetail.htm?isUseInventoryCenter=true&cartEnable=true&service3C=false&isApparel=true&isSecKill=false&tmallBuySupport=true&isAreaSell=true&tryBeforeBuy=false&offlineShop=false&itemId=613256380507&showShopProm=false&isPurchaseMallPage=false&itemGmtModified=1595409885000&isRegionLevel=true&household=false&sellerPreview=false&queryMemberRight=true&addressLevel=3&isForbidBuyItem=false',isg=document.cookie.match('(^|;) ?l=([^;]*)(;|$)'),isg2 =document.cookie.match('(^|;) ?isg=([^;]*)(;|$)');
+        if(!url){return;}
+        var arr=["callback=setMdskip","timestamp="+(+new Date()),"isg="+(isg&&isg[2]),"isg2="+(isg2&&isg2[2])],reg=/[?&^](ip|campaignId|key|abt|cat_id|q|u_channel|areaId|sdShopId)=([^&]+)/g,params=w.location.search;
+        while(r=reg.exec(params)){arr.push(r[1]+"="+r[2]);}
+        d.referrer && (arr.push("ref="+encodeURIComponent(d.referrer)));
+        w.onMdskip=function(c){l=l?c(l):c}
+        w.setMdskip=function(v){l=l?l(v):v;}
+        try{
+            var head=d.head || d.getElementsByTagName("head")[0];
+            var script=d.createElement("script");
+            head.insertBefore(script,head.firstChild);
+            script.src=url+'&'+arr.join("&");
+        }
+        catch(err){
+            d.write('<script src="'+url+'&'+arr.join("&")+'" async="async"></'+'script>');
+        }
+    }catch(e){
+        w.onMdskip=null;
+        setTimeout(function(){throw err;},0);
+    }
+    }(window,document))
+</script>
+
+   	<meta name="keywords" content="女装 麻混纺宽腿裤 (附腰带)(老爹裤) 424932 优衣库UNIQLO"/>
+<meta name="description" content="欢迎前来淘宝网实力旺铺，选购女装 麻混纺宽腿裤 (附腰带)(老爹裤) 424932 优衣库UNIQLO,想了解详情女装 麻混纺宽腿裤 (附腰带)(老爹裤) 424932 优衣库UNIQLO，请进入优衣库官方旗舰店的优衣库官方旗舰店实力旺铺，更多商品任你选购"/>
+<script>(function(D,W){var sampling=1000,maxNum=5,_st = +new Date();if(Math.floor(Math.random()*sampling)>0){return;}var onError=W.onerror=function(err,file,line){if((--maxNum)<=0){return;};err='[t'+(new Date()-_st)+']'+err;if(W._jstErrCat){err='[c'+W._jstErrCat+']'+err;}var nick="",result;try{result=/_nk_=([^;]+)/.exec(D.cookie);if(result){nick=decodeURIComponent(result[1]);}}catch(e){}new Image().src="//gm.mmstat.com/jstracker.2?"+["type=9","id=jstracker","v=0.01","nick="+encodeURIComponent(nick),"islogin=0","msg="+encodeURIComponent(err||""),"file="+encodeURIComponent(file||""),"line="+encodeURIComponent(line||""),"scrolltop="+(D.documentElement.scrollTop||D.body.scrollTop||0),"screen="+screen.width+"x"+screen.height,"t="+new Date().valueOf()].join("&");};W._jstErrTimeout=setTimeout(function(){onError("App init timeout");},4096);})(document, window)</script>
+
+
+                                
+
+                        		                                                                                                        		                                                                                        		        		
+
+
+                                                                                                                		                                        		                                                        		        								
+
+                                
+
+                        												        		                                                                        										                						
+
+                                
+												
+		
+
+
+
+
+
+
+
+
+        				
+<link rel="canonical" href="https://detail.tmall.com/item.htm?id=613256380507" />
+<link rel="amphtml" hreflang="zh-Hans" href="https://www.taobao.com/list/item-amp/613256380507.htm" />
+<link rel="alternate" hreflang="zh-Hant" href="https://world.taobao.com/item/613256380507.htm" />
+    
+                    
+    	    <script src="//g.alicdn.com/tb/tracker/index.js"></script>
+	    <script>
+			window.g_config = {
+				jstracker2: {
+					sampling: 10,
+					url: 'https://detail.tmall.com/item.htm'
+				}
+			};
+	    </script>
+
+
+
+    <script>(function(w, d) {var gt = 'getElementsByTagName',h = d[gt]('head')[0],m,i;w.g_config={itemId:"613256380507",sellerId:"196993935",shopId:"57303596",startTime:(+new Date()),p:1,type:"b",t:"2013072520131122",assetsHost:"//assets.alicdn.com",pw:(window.screen.width >= 1260&&true&&(4190&8||4190&512||4190&16384||(/standard=1/.test(window.location.search)&&!false)))?"1190":"990",webww:true,removeBrandBar:true,ap_mods:{jstracker:[0]},"loadModulesLater":true,shopUrl:"//uniqlo.tmall.com",moduleTimeStamp: ""  ,showDetailQrcode:true,showShopQrcode:true,wtId:"2006570613",reviewsVersion:"3.0.14",beautyBucketTestIdArray:"[all]",cspuBucketTestIdArray:"[all]",monthlySalesBucketTestIdArray:"[no]",beautyVesion :"1.4.2",controlModuleOwn:"true",toolbar:false,ueUrl:"//feedback.taobao.com/pc/feedbacks?productId=339&source=Web",shopVersion:"3.2.20",tmShopAges: 12 ,ueId:1677,
+
+
+
+bizTag:4190,appId: 1,isEC:true ,shopUrl:"//uniqlo.tmall.com",showDetailQrcode: true,showShopQrcode: true,newHead:true,isClosedSales:false,is1111HalfPriceItem:false,sellerNickName:"%E4%BC%98%E8%A1%A3%E5%BA%93%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97",categoryId:162201,notInitSearchBar:true,isInternational: false,pageType: ""};d[gt]('html')[0]['className'] += " w"+w.g_config.pw;})(window, document);</script>
+    
+            <title>女装 麻混纺宽腿裤 (附腰带)(老爹裤) 424932 优衣库UNIQLO-tmall.com天猫</title>
+    <link rel="shortcut icon" href="//img.alicdn.com/tfs/TB1XlF3RpXXXXc6XXXXXXXXXXXX-16-16.png" type="image/x-icon"/>
+    <script>
+        window.g_config = window.g_config || {};
+        window.g_config.devId = "pc";
+        window.g_config.headerVersion = '1.0.0';
+                                                                            window.g_config.pageId = '';
+                window.g_config.bizId = '';
+                                                                window.g_config.isMarket = true;
+                                            window.g_config.loadModulesLater = true;
+        window.g_config.sl = 'vm';
+    </script>
+    
+
+                
+
+        <!-- globalmodule version: 3.0.84 -->
+<link rel="stylesheet"
+      href="//g.alicdn.com/??mui/global/3.0.31/global.css,tm/shop/3.2.20/app.css,tm/shop/3.2.20/page/detail.css"/>
+<script src="//g.alicdn.com/??kissy/k/1.4.2/seed-min.js,mui/seed/1.3.0/seed.js,mui/globalmodule/3.0.84/seed.js,mui/btscfg-g/3.0.0/index.js,mui/bucket/3.0.4/index.js,mui/globalmodule/3.0.84/global-mod-pc.js,mui/globalmodule/3.0.84/global-mod.js,mui/global/3.0.31/global-pc.js,mui/global/3.0.31/global.js,tm/shop/3.2.20/app.js,tm/shop/3.2.20/page/detail.js"></script>
+<script src="//g.alicdn.com/secdev/pointman/js/index.js" app="tmall"></script>
+<script>
+        TB.environment.isApp = true;
+                TB.environment.passCookie = false;
+        </script>
+
+
+
+    
+    <script async src="//g.alicdn.com/sd/sufei/0.3.103/app/common/sufei-seed.js"></script>
+                        <link rel="stylesheet" href="//g.alicdn.com/??tm/detail/1.20.1/app.css,tm/detail/1.20.1/page/itemDetail.css"/>
+            <script src="//g.alicdn.com/??tm/detail/1.20.1/app.js,tm/detail/1.20.1/page/itemDetail.js"></script>
+                <link rel="stylesheet"  href="//g.alicdn.com/shop/taesite/0.1.7/platinum/stylesheet/??common/mods/ww-hover/default-min.css,view/layout-tmall-990-min.css,common/modules-sys-tmall-default-min.css,common/modules-other-tmall-default-min.css"/>
+	<!-- 进入NewTemplate -->    
+	<!-- &lt;!--pagekey:new_p_lazy_sid57303596_pid1302405363,cacheAt:2020-07-22 17:39:48,ip:sitemisc011087199039.center.na62--&gt; -->
+				<!--DcCommonHeader 店铺头非异步时CSS引入开始-->
+									<link rel="stylesheet" href="//g.alicdn.com/??/shop/taesite/0.1.6/platinum/stylesheet/common/templates/tmall/black/skin.css" />
+			    	    	    	    	    		<style>#content{background:url(about:blank) repeat left 0;}#hd{background:url(about:blank);}
+#page #content  #hd{ width:auto!important}</style>
+    	        		<!--DcCommonHeader 店铺头非异步时CSS引入结束-->
+	
+            <meta name="spm-id" content="a220o" />
+    			<meta name="referrer" content="always">
+				    <meta name="microscope-data" content="pageId=1302405363;prototypeId=2;siteId=2; shopId=57303596; userid=196993935;">
+	            
+    
+    
+    
+    
+    
+    
+
+    
+    
+            
+          <Script type="text/javascript" charset="utf-8" src="//g.alicdn.com/mui/beautysku/1.0.1/index-pc.js"></Script>
+ 
+    <script>
+  g_config = g_config || {};
+  g_config.removeSubNav = true;
+  g_config.removeHotQuery = true;
+</script>
+
+        <script type="text/javascript">
+KISSY.config({
+  "combine": true,
+  "modules": {
+    "mui/mtop/index": {
+      "requires": [
+        "mui/mtb-windvane/",
+        "mui/babel-polyfill/"
+      ]
+    },
+    "mui/mtop/storage-middleware": {
+      "requires": [
+        "mui/babel-polyfill/"
+      ]
+    },
+    "mui/zebra-guaguaka-detail-pc/index-pc": {
+      "requires": [
+        "mui/kissy-polyfill/index",
+        "dom",
+        "event",
+        "ajax",
+        "mui/minilogin/index",
+        "mui/zebra-guaguaka-detail-pc/widget",
+        "mui/zebra-guaguaka-detail-pc/index-pc.css",
+        "mui/mtop/index"
+      ]
+    },
+    "mui/zebra-guaguaka-detail-pc/widget": {
+      "requires": [
+        "dom",
+        "event"
+      ]
+    }
+  },
+  "packages": {
+    "kissy": {
+      "base": "//g.alicdn.com/kissy/k/1.4.10/",
+      "version": "1.4.10"
+    },
+    "mui/babel-polyfill": {
+      "debug": true,
+      "group": "tm",
+      "ignorePackageNameInUri": true,
+      "path": "//g.alicdn.com/mui/babel-polyfill/6.2.6/",
+      "version": "6.2.6"
+    },
+    "mui/kissy-polyfill": {
+      "debug": true,
+      "group": "tm",
+      "ignorePackageNameInUri": true,
+      "path": "//g.alicdn.com/mui/kissy-polyfill/4.0.15/",
+      "version": "4.0.15"
+    },
+    "mui/mtb-windvane": {
+      "debug": true,
+      "group": "tm",
+      "ignorePackageNameInUri": true,
+      "path": "//g.alicdn.com/mui/mtb-windvane/4.0.3/",
+      "version": "4.0.3"
+    },
+    "mui/mtop": {
+      "debug": true,
+      "group": "tm",
+      "ignorePackageNameInUri": true,
+      "path": "//g.alicdn.com/mui/mtop/4.1.1/",
+      "version": "4.1.1"
+    },
+    "mui/zebra-guaguaka-detail-pc": {
+      "debug": true,
+      "group": "tm",
+      "ignorePackageNameInUri": true,
+      "path": "//g.alicdn.com/mui/zebra-guaguaka-detail-pc/3.0.18/",
+      "version": "3.0.18"
+    }
+  }
+});
+</script>
+
+            <script src="//g.alicdn.com/tb/pmp/2.88.7/config.js"></script> 
+<link rel="stylesheet" href="//g.alicdn.com/tb/pmp/2.88.7/c/sku/tmall.css">
+<script> 
+   XCake.config({ 
+   name:'pmp', 
+   base:'//g.alicdn.com/tb/pmp/2.88.7/', 
+   combine:KISSY.Config.debug?false:true 
+   }); 
+   KISSY.use('pmp/c/sku/tmall');
+</script>
+
+
+</head>
+<body class="  no7day"  data-spm="1000855" ><script>
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=item%5f162201&userid=&at_isb=1&at_bucketid=sbucket%5f%2d1&b2c_brand=29527&b2c_auction=613256380507&at_autype=4%5f57303596&aplus&udpid=&at_alis=2%5f196993935&&yunid=&&trid=24688b1815954108658638289e&asid=AQAAAACyCRhfneHwNAAAAACFk+6ChKqk6A==&sidx=WDq0CCv91tM6zzuf2bY3PYMhstCNdNviEVUqEpgMKhAXfQmV+yCS8uYzA8c6Bf9yLSFe8TWRcS9v9QFkCzdG52zT4ovaQylxc+oYFD3rGgL1cI0Bp9tyMcEZEjQoanJhOk/nghB4cSlfUnkC4B48TnFYz4JlZYPzarjg41WggQE=",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
+</script><script type="text/javascript">
+window.TShop && TShop.setConfig && TShop.setConfig({token:'',renderTime:'1595410866',bucketId:'%2d1'});
+</script>
+
+                                
+
+
+
+
+
+
+    
+    <style>
+button {
+  border-radius: 0;
+}
+</style>
+<!--from fragment-->
+<div id="site-nav" data-spm="a2226mz">
+    <div id="sn-bg">
+        <div class="sn-bg-right">
+        </div>
+    </div>
+    <div id="sn-bd">
+        <b class="sn-edge"></b>
+        <div class="sn-container">
+            <p id="login-info" class="sn-login-info"></p>
+            <ul class="sn-quick-menu">
+                <li class="sn-mytaobao menu-item j_MyTaobao">
+                    <div class="sn-menu">
+                        <a class="menu-hd"
+                           href="//i.taobao.com/my_taobao.htm"
+                           target="_top" rel="nofollow">我的淘宝<b></b></a>
+                        <div class="menu-bd">
+                            <div class="menu-bd-panel" id="myTaobaoPanel">
+                                <a href="//trade.taobao.com/trade/itemlist/list_bought_items.htm?t=20110530"
+                                   target="_top" rel="nofollow">已买到的宝贝</a>
+                                <a href="//trade.taobao.com/trade/itemlist/list_sold_items.htm?t=20110530"
+                                   target="_top" rel="nofollow">已卖出的宝贝</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="sn-seller-center hidden j_SellerCenter">
+                    <a target="_top" href="//mai.taobao.com/seller_admin.htm">商家中心</a>
+                </li>
+                <li class="sn-cart"><i class="mui-global-iconfont">&#xf0148;</i>
+                    <a class="sn-cart-link" href="//cart.tmall.com/cart/myCart.htm?from=btop" target="_top"
+                       rel="nofollow">购物车
+                    </a>
+                </li>
+                <li class="sn-favorite menu-item">
+                    <div class="sn-menu">
+                        <a class="menu-hd"
+                           href="//shoucang.taobao.com/shop_collect_list.htm?scjjc=c1"
+                           target="_top" rel="nofollow">收藏夹<b></b></a>
+
+                        <div class="menu-bd">
+                            <div class="menu-bd-panel">
+                                <a href="//shoucang.taobao.com/item_collect.htm" target="_top"
+                                   rel="nofollow">收藏的宝贝</a>
+                                <a href="//shoucang.taobao.com/shop_collect_list.htm" target="_top"
+                                   rel="nofollow">收藏的店铺</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="sn-separator"></li>
+                <li class="sn-mobile">
+                    <i class="mui-global-iconfont">&#x3448;</i>
+                    <a title="天猫无线" target="_top" class="sn-mobile-link" href="//pages.tmall.com/wow/portal/act/app-download?scm=1027.1.1.1">手机版</a>
+                </li>
+                <li class="sn-home">
+                    <a href="//www.taobao.com/">淘宝网</a>
+                </li>
+                <li class="sn-seller menu-item">
+                    <div class="sn-menu J_DirectPromo">
+                        <a class="menu-hd" href="//mai.taobao.com" target="_top">商家支持<b></b></a>
+                        <div class="menu-bd sn-seller-lazy">
+                        </div>
+                    </div>
+                </li>
+                <li class="sn-sitemap">
+                    <div class="sn-menu">
+                        <h3 class="menu-hd"><i class="mui-global-iconfont">&#xe601;</i><span>网站导航</span><b></b></h3>
+                        <div class="menu-bd sn-sitemap-lazy sn-sitemap-bd" data-spm="a2228l4">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div id="header" class="tm-chn- ">
+<!-- global logo 2019 -->
+<div id="headerCon">
+        <h1 id="mallLogo">
+        <span class="mlogo"><a href="//www.tmall.com/" title="天猫Tmall.com"><s></s>天猫Tmall.com</a></span>
+    </h1>
+    
+        
+        <div id="shopExtra" data-spm="1997427721">
+    <div class="slogo">
+                <a class="slogo-shopname" href="//uniqlo.tmall.com" data-spm="d4918089"><strong>优衣库官方旗舰店</strong></a>
+        <div class="slogo-extraicon  bShop ">
+                                                <span class="flagship-icon"><span class="flagship-icon-font">品牌直销</span></span>
+                                        <span class="slogo-ww J_WangWang" data-nick="%E4%BC%98%E8%A1%A3%E5%BA%93%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97" data-tnick="%E4%BC%98%E8%A1%A3%E5%BA%93%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97" data-encode="true" data-display="inline"
+                  data-icon="static"></span>
+        </div>
+    </div>
+    <div id="shop-info">
+    <div style="display:none">
+        <input type="hidden" id="dsr-url" value="//count.taobao.com/counter3?keys=SM_368_dsr-a46e6d571452e5bb71b604b016cc2738"/>
+        <input type="hidden" id="dsr-userid" value="196993935"/>
+        <input type="hidden" id="dsr-ratelink" value="//rate.taobao.com/user-rate-UvFkLOFkGOFvb.htm"/>
+    </div>
+        <script>
+        window.g_config.tmShopAges = 12;
+    </script>
+        <div class="main-info">
+                                    <div class="shopdsr-item">
+                    <div class="shopdsr-title">描 述</div>
+                                            <div class="shopdsr-score shopdsr-score-up-ctrl"><span class="shopdsr-score-con">4.9</span><s class="shopdsr-score-up"></s></div>
+                                    </div>
+                                        <div class="shopdsr-item">
+                    <div class="shopdsr-title">服 务</div>
+                                            <div class="shopdsr-score shopdsr-score-up-ctrl"><span class="shopdsr-score-con">4.8</span><s class="shopdsr-score-up"></s></div>
+                                    </div>
+                                        <div class="shopdsr-item">
+                    <div class="shopdsr-title">物 流</div>
+                                            <div class="shopdsr-score shopdsr-score-up-ctrl"><span class="shopdsr-score-con">4.9</span><s class="shopdsr-score-up"></s></div>
+                                    </div>
+                        <a class="slogo-triangle"><i class="icon-triangle"></i></a>
+            </div>
+                    <!--isHK:  ,isShow: false -->
+    <div class="extra-info ">
+        <textarea class="ks-datalazyload">
+                <div class="bd">
+            <div data-spm="d4918101" class="shop-rate">
+                                    <h4>店铺动态评分<!--盟主aaa-->
+                        <span class="compare">与同行业相比</span>
+                    </h4>
+                    <ul>
+                        <li>
+                            描述相符：<a target="_blank" href="//rate.taobao.com/user-rate-UvFkLOFkGOFvb.htm">
+                                                            <em class="count" title="4.9分">4.9</em>
+                                                    <span class="rateinfo" title=" 计算规则:(店铺得分-同行业平均分)/(同行业店铺最高得分-同行业平均分) ">
+                                                                                                                    <b></b><em>37.34%</em>
+                                                                                                            </span>
+                                                    </a>
+                        </li>
+                        <li>
+                            服务态度：<a target="_blank" href="//rate.taobao.com/user-rate-UvFkLOFkGOFvb.htm">
+                                                            <em class="count" title="4.8分">4.8</em>
+                                                <span class="rateinfo" title=" 计算规则:(店铺得分-同行业平均分)/(同行业店铺最高得分-同行业平均分) ">
+                                                                                                            <b></b><em>22.46%</em>
+                                                                                                    </span>
+                                                    </a>
+                        </li>
+                        <li>
+                            发货速度：<a target="_blank" href="//rate.taobao.com/user-rate-UvFkLOFkGOFvb.htm">
+                                                            <em class="count" title="4.9分">4.9</em>
+                                                <span class="rateinfo" title=" 计算规则:(店铺得分-同行业平均分)/(同行业店铺最高得分-同行业平均分) ">
+                                                                                                            <b></b><em>30.28%</em>
+                                                                                                    </span>
+                                                    </a>
+                        </li>
+                    </ul>
+                            </div>
+            <div class="extend">
+                <h4 class="title">店铺服务</h4>
+                <ul>
+                    <li class="shopkeeper">
+                        <label>掌　　柜：</label>
+                        <div class="right">
+                            <a href="//rate.taobao.com/user-rate-UvFkLOFkGOFvb.htm" data-spm="d4918097">优衣库官方旗舰店</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <label>客　　服：</label>
+                        <div class="right">
+                                        <span class="J_WangWang ww-light ww-large" data-nick="%E4%BC%98%E8%A1%A3%E5%BA%93%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97" data-tnick="%E4%BC%98%E8%A1%A3%E5%BA%93%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97"
+                                              data-encode="true" data-display="inline" data-icon="static"></span>
+                        </div>
+                    </li>
+
+                    
+                                            <li>
+                            <label>
+                                开店时长：
+                            </label>
+                            <div class="right tm-shop-age">
+                            <span class="tm-shop-age-num">12</span><span class="tm-shop-age-content">天猫12年店</span>
+
+                            </div>
+                        </li>
+
+                    
+                    
+
+
+                    <li class="locus">
+                        <label>
+                            所 在 地：
+                        </label>
+                                                    <div class="right">
+                                上海
+                            </div>
+                                            </li>
+                                            <li>
+                            <label>企业资质：</label>
+                            <div class="right">
+                                <a href="//zhaoshang.tmall.com/maintaininfo/liangzhao.htm?xid=a46e6d571452e5bb71b604b016cc2738" class="tm-gsLink" target="_blank"><img width="20" height="22" src="//assets.alicdn.com/app/marketing/xfile/national_emblem_light.png" alt=""></a>
+                                                                                    </div>
+                        </li>
+                                        
+                    
+                                    </ul>
+            </div>
+
+            <div class="other">
+                <a class="enter-shop" href="//uniqlo.tmall.com" data-spm="d4918105"><i></i><span>进店逛逛</span></a>
+                <a id="xshop_collection_href"
+                   href="//favorite.taobao.com/popup/add_collection.htm?id=57303596&amp;itemid=57303596&amp;itemtype=0&amp;ownerid=a46e6d571452e5bb71b604b016cc2738&amp;scjjc=2"
+                   mercury:params="id=57303596&itemid=57303596&itemtype=0&ownerid=a46e6d571452e5bb71b604b016cc2738"
+                   class="J_PopupTrigger collection xshop_sc J_TDialogTrigger J_TokenSign" data-width="440"
+                   data-height="290" data-closebtn="true">
+                    <i></i><span>收藏本店</span>
+                </a>
+            </div>
+        </div>
+        </textarea>
+    </div>
+    </div>
+    </div>
+    
+<div class="header-extra">
+    <div id="mallSearch" class="mall-search">
+                        <form name="searchTop" action="//list.tmall.com/search_product.htm"
+              class="mallSearch-form">
+            <fieldset>
+                <legend>天猫搜索</legend>
+                <div class="mallSearch-input clearfix">
+                    <div class="defaultSearch">
+                        <input type="text" name="q"  accesskey="s" autocomplete="off" x-webkit-speech=""
+                               x-webkit-grammar="builtin:search" value="" id="mq">
+                        <button id="J_SearchBtn" type="submit">
+                                                    搜天猫
+                                                <s></s></button>
+                                        </div>
+                    <button id="J_CurrShopBtn" class="currShopBtn" type="button">搜本店<s></s></button>
+                    <input id="J_Type" type="hidden" name="type" value="p">
+                    <input id="J_MallSearchStyle" type="hidden" name="style" value="">
+                    <input id="J_Cat" type="hidden" name="cat" value="all">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
+</div>
+            <input id="J_ShopSearchUrl" type="hidden" value="//uniqlo.tmall.com" />
+    </div>
+
+    
+   <div data-spm="1998132232" id="J_dingtian">
+    			
+			<!--  ESIBanner开始 -->
+		<!-- position : TOP , params:  -->
+						<!--  ESIBanner结束 -->
+	    </div>
+    
+
+            <div id="page">
+<div id="content" data-cat="J_Cat" data-type="normal">
+				
+
+
+	
+	
+				<!-- 非店铺异步，会显示页头 -->
+		<!--hdkey:new_p_lazy_sid57303596_pid1302405363,cacheAt:2020-07-22 17:39:48,ip:sitemisc011087199039.center.na62--><div class="tb-shop" id="hd"><div class="layout grid-m J_TLayout" data-widgetid="15676986328"
+     data-componentid="23" data-prototypeid="23" data-id="15676986328" data-max="">
+        <div class="col-main">
+        <div class="main-wrap J_TRegion" data-modules="main" data-width="h990" data-max="">
+            <div class="J_TModule" data-widgetid="21847209253"  id="shop21847209253"  data-componentid="4007"  data-spm="110.0.4007-21847209253"  microscope-data="4007-21847209253" data-title="完全自定义内容区"  ><div class="skin-box tb-module tshop-pbsm tshop-pbsm-shop-full-self-defined tshop-pbsm-shop-self-defined">
+        <s class="skin-box-tp"><b></b></s>
+                <div class="skin-box-bd clear-fix">
+            <span>
+                                    <link rel=stylesheet href=https://www.uniqlo.cn/public/image/L1/2020/Header/CSS/uniqlo.css type=text/css media=screen /> <link rel=stylesheet href=https://www.uniqlo.cn/public/image/L1/2020/Header/CSS/L1-nav-100902.css type=text/css media=screen /> <style>#bd .J_TModule .skin-box-bd {
+         font-family: "UniqloProRegular", "syht_Regular"
+     }
+    .skin-box-bd .df,.skin-box-bd .df2,.nav_box {
+        font-family: "UniqloProRegular", "syht_Regular"!important
+    }
+    .skin-box-bd .df,.skin-box-bd .df2 {
+        font-weight: bold;
+		
+    }
+	.skin-box-bd .xpss{
+			color: #000;
+    		font-size: 27px;
+    		font-family: "UniqloProRegular", "syht_Regular";
+			text-indent: 7px;
+    		letter-spacing: 2px;
+		font-weight: bold;
+margin: 50px 0;
+		}
+     #content #hd {
+         overflow: visible !important
+     }
+
+     .dv_navi,
+     .sd_dv_navi {
+         height: 66px;
+         position: absolute;
+         display: block;
+         clear: both;
+         left: 0;
+         right: 0;
+         top: 0;
+         bottom: 0;
+         margin: 0 auto;
+         text-align: left;
+         font-family: 'Uniqlo', 'syht_Regular';
+     }
+
+     #list_women .add .arrow {
+         margin-left: 145px !important;
+     }
+
+     #list_men .add .arrow {
+         margin-left: 220px !important;
+     }
+
+     #list_kids .add .arrow {
+         margin-left: 295px !important;
+     }
+
+     #list_baby .add .arrow {
+         margin-left: 372px !important;
+     }
+
+     #list_polo .add .arrow {
+         margin-left: 651px !important;
+     }
+
+     #list_air .add .arrow {
+         margin-left: 591px !important;
+     }
+
+     #list_jogger .add .arrow {
+         margin-left: 508px !important;
+
+     }
+
+     #list_new .add .arrow {
+         margin-left: 447px !important;
+     }
+
+     #list_het .add .arrow {
+         margin-left: 526px !important;
+     }
+
+     #list_women .tit1,
+     #list_men .tit1,
+     #list_kids .tit1,
+     #list_baby .tit1 {
+         height: 17px;
+     }
+
+     #wangwang-dis {
+         display: none !important
+     }</style> <div style="display:block; height:78px; align:center"> <div class=sd_dv_navi> <img src=https://www.uniqlo.cn/public/image/L1/2020/Header/Img/common/image.htm.gif style=display:none /> <div class=bg style=display:none>&nbsp;</div> <div class="navAll sd_navAll"> <ul class="wmkb id_navHeader"> <li> <div class=siteLogo> <a href=http://uniqlo.tmall.com/ name=top title=UNIQLO target=_blank class=id_top> <img src=https://img.alicdn.com/imgextra/i3/196993935/T290OnXShXXXXXXXXX_!!196993935.gif alt=UNIQLO class=overimg border=0 height=100 width=50 /> </a> </div> </li> <li id=btn class=close> <a href=http://uniqlo.tmall.com/> <img class=overimg src=https://img.alicdn.com/imgextra/i1/196993935/TB2dnk2kXXXXXaMXpXXXXXXXXXX-196993935.jpg height=100 width=73 /> </a> </li> <li id=btn_women class=close> <a href=#!women class=id_header_women> <img class=overimg src=https://img.alicdn.com/imgextra/i4/196993935/TB2.CUWkXXXXXbzXpXXXXXXXXXX-196993935.jpg height=100 width=73 /> </a> </li> <li id=btn_men class=close> <a href=#!men class=id_header_men> <img class=overimg src=https://img.alicdn.com/imgextra/i2/196993935/TB25iw8kXXXXXXOXpXXXXXXXXXX-196993935.jpg height=100 width=72 /> </a> </li> <li id=btn_kids class=close> <a href=#!kids class=id_header_kids> <img class=overimg src=https://img.alicdn.com/imgextra/i3/196993935/TB2AMw.kXXXXXXbXpXXXXXXXXXX-196993935.jpg height=100 width=73 /> </a> </li> <li id=btn_baby class=close> <a href=#!baby class=id_header_baby> <img class=overimg src=https://img.alicdn.com/imgextra/i1/196993935/TB2m3Z2kXXXXXa0XpXXXXXXXXXX-196993935.jpg height=100 width=87 /> </a> </li> <li id=btn_new class=close> <a href=#!new class=id_header_new><img class=overimg src=https://img.alicdn.com/imgextra/i1/196993935/O1CN01oguyA71ewH7QXXd6a_!!196993935.jpg height=100 width=74 /> </a> </li> <li id=btn_het class=close> <a href=#!het class=id_header_het> <img class=overimg src=https://img.alicdn.com/imgextra/i2/196993935/O1CN01htDHhn1ewH7SLnf8s_!!196993935.jpg height=100 width=74 /> </a> </li> <li id=btn_air class=close> <a href=#!air class=id_header_air> <img class=overimg src=https://img.alicdn.com/imgextra/i1/196993935/O1CN01H41Hac1ewH8C9mPJN_!!196993935.jpg height=100 width=50 /> </a> </li> <li id=btn_polo class=close> <a href=#!air class=id_header_polo> <img class=overimg src=https://img.alicdn.com/imgextra/i2/196993935/O1CN01oUchsJ1ewH7T82yIK_!!196993935.jpg height=100 width=76 /> </a> </li> </ul> <ul style=float:right> <li> <a href=http://uniqlo.tmall.com/p/ggq.htm target=_blank> <img src=https://img.alicdn.com/imgextra/i1/196993935/TB2cD0fkpXXXXchXXXXXXXXXXXX-196993935.jpg alt=公告区 class=overimg border=0 height=100 width=97 /> </a> </li> <li> <a href=https://www.uniqlo.cn/shop/shop_list.html target=_blank> <img src=https://img.alicdn.com/imgextra/i4/196993935/TB2T4jGbOGO.eBjSZFEXXcy9VXa-196993935.jpg alt=店铺资料 class=overimg border=0 height=100 width=98 /> </a> </li> <li id=page-utillity-nav-02-01> <a href=https://uniqlo.tmall.com/p/rd956058.htm target=_blank> <img src=https://img.alicdn.com/imgextra/i2/196993935/O1CN01b221yF1ewH6pqivks_!!196993935.jpg alt=购物须知 class=overimg border=0 height=100 width=117 /> </a> </li> </ul> </div> <div id=list_women class="navBox sd_navBox">&nbsp;</div> <div id=list_men class=navBox>&nbsp;</div> <div id=list_kids class=navBox>&nbsp;</div> <div id=list_baby class=navBox>&nbsp;</div> <div id=list_het class=navBox style="display: none"> <div class=add> <img class=arrow style=bottom:-10px data-align=btn_het src=https://img.alicdn.com/imgextra/i3/196993935/TB2IFvVhVXXXXbVXXXXXXXXXXXX-196993935.png border=0 /> <span> </span> <img class=cross src=https://img.alicdn.com/imgextra/i4/196993935/TB2ZQF0iXXXXXaKXpXXXXXXXXXX-196993935.png /> </div> <ul class="cnt_b cntAll"> <div> <li class=tit style="font-weight: bold;
+	            color: #F00;font-size:14px; margin-left:20px"> 女装 </li> <div class=navbox1 style=width:285px> <div class=boxbg>&nbsp;</div> <a href="http://uniqlo.tmall.com/p/rd157391.htm?spm=a1z10.1-b-s.w4007-21847209253.201.411e11a66G4sPJ" target=_blank data-spm-wangpu-module-id=4007-21847209253 data-spm-anchor-id=a1z10.1-b-s.w4007-21847209253.201> <img src=https://img.alicdn.com/imgextra/i3/196993935/O1CN01osCZT21ewH6iV5Dc9_!!196993935.jpg width=285 height=385 border=0 /> </a> </div> </div> <div style="margin-left: -3%"> <li class=titAll> 男装 </li> <div class=navbox1 style=width:285px> <div class=boxbg>&nbsp;</div> <a target=_blank href="http://uniqlo.tmall.com/p/rd471474.htm?spm=a1z10.1-b-s.w4007-21847209253.202.411e11a66G4sPJ" data-spm-wangpu-module-id=4007-21847209253 data-spm-anchor-id=a1z10.1-b-s.w4007-21847209253.202> <img src=https://img.alicdn.com/imgextra/i2/196993935/O1CN01bmLAYo1ewH6iV4gMu_!!196993935.jpg width=285 height=385 usemap=#Map2018070101 border=0 /> </a> </div> </div> <div style="margin-left: -3%"> <li class=titAll> 童装 </li> <div class=navbox1 style=width:285px> <div class=boxbg>&nbsp;</div> <a target=_blank href="http://uniqlo.tmall.com/p/rd652323.htm?spm=a1z10.1-b-s.w4007-21847209253.203.411e11a66G4sPJ" data-spm-wangpu-module-id=4007-21847209253 data-spm-anchor-id=a1z10.1-b-s.w4007-21847209253.203> <img src=https://img.alicdn.com/imgextra/i4/196993935/O1CN01juSxBV1ewH6sNnB2k_!!196993935.jpg border=0 /> </a> </div> </div> <div style="margin-left: -3%"> <li class=titAll> 婴幼儿 </li> <div class=navbox1 style=width:285px> <div class=boxbg>&nbsp;</div> <a target=_blank href="https://uniqlo.tmall.com/p/rd652323.htm?spm=a1z10.1-b-s.w4007-21847209253.204.411e11a66G4sPJ#yyexl" data-spm-wangpu-module-id=4007-21847209253 data-spm-anchor-id=a1z10.1-b-s.w4007-21847209253.204> <img src=https://img.alicdn.com/imgextra/i1/196993935/O1CN01DW6p3C1ewH6rlHP3h_!!196993935.jpg border=0 /> </a> </div> </div> </ul> </div> <div id=list_new class=navBox style="display: none"> <div class=add> <img class=arrow style=bottom:-10px data-align=btn_new src=https://img.alicdn.com/imgextra/i3/196993935/TB2IFvVhVXXXXbVXXXXXXXXXXXX-196993935.png border=0 /> <span> </span> <img class=cross src=https://img.alicdn.com/imgextra/i4/196993935/TB2ZQF0iXXXXXaKXpXXXXXXXXXX-196993935.png /> </div> <ul class="cnt_b cntAll"> <div> <li class=tit style="font-weight: bold;
+	            color: #F00;font-size:14px; margin-left:20px"> 女装 </li> <div class=navbox1 style=width:380px> <div class=boxbg>&nbsp;</div> <a href="http://uniqlo.tmall.com/p/rd622311.htm?spm=a1z10.1-b-s.w4007-21847209253.205.411e11a66G4sPJ" target=_blank data-spm-wangpu-module-id=4007-21847209253 data-spm-anchor-id=a1z10.1-b-s.w4007-21847209253.205> <img src=https://img.alicdn.com/imgextra/i2/196993935/O1CN01VqVLQS1ewH8EhCtDJ_!!196993935.jpg width=380 height=385 usemap=#Map2018082101 border=0 /> </a> </div> </div> <div style="margin-left: -3%"> <li class=titAll> 男装 </li> <div class=navbox1 style=width:380px> <div class=boxbg>&nbsp;</div> <a target=_blank href="http://uniqlo.tmall.com/p/rd810626.htm?spm=a1z10.1-b-s.w4007-21847209253.206.411e11a66G4sPJ" data-spm-wangpu-module-id=4007-21847209253 data-spm-anchor-id=a1z10.1-b-s.w4007-21847209253.206> <img src=https://img.alicdn.com/imgextra/i1/196993935/O1CN01t2m1Ok1ewH87ugbc1_!!196993935.jpg width=380 height=385 usemap=#Map2018070101 border=0 /> </a> </div> </div> <div style="margin-left: -3%"> <li class=titAll> 童装 </li> <div class=navbox1 style=width:380px> <div class=boxbg>&nbsp;</div> <a target=_blank href="http://uniqlo.tmall.com/p/rd123081.htm?spm=a1z10.1-b-s.w4007-21847209253.207.411e11a66G4sPJ" data-spm-wangpu-module-id=4007-21847209253 data-spm-anchor-id=a1z10.1-b-s.w4007-21847209253.207> <img src=https://img.alicdn.com/imgextra/i3/196993935/O1CN01GDQdQy1ewH8BbLSmP_!!196993935.jpg border=0 /> </a> </div> </div> </ul> </div> <div id=list_polo class=navBox style="display: none"> <div class=add> <img class=arrow style=bottom:-10px data-align=btn_new src=https://img.alicdn.com/imgextra/i3/196993935/TB2IFvVhVXXXXbVXXXXXXXXXXXX-196993935.png border=0 /> <span> </span> <img class=cross src=https://img.alicdn.com/imgextra/i4/196993935/TB2ZQF0iXXXXXaKXpXXXXXXXXXX-196993935.png /> </div> <ul class="cnt_b cntAll"> <div> <li class=tit style="font-weight: bold;
+	            color: #F00;font-size:14px; margin-left:20px"> 女装 </li> <div class=navbox1 style=width:380px> <div class=boxbg>&nbsp;</div> <a href="https://uniqlo.tmall.com/p/rd719615.htm?spm=a1z10.1-b-s.w4007-21847209253.208.411e11a66G4sPJ" target=_blank data-spm-wangpu-module-id=4007-21847209253 data-spm-anchor-id=a1z10.1-b-s.w4007-21847209253.208> <img src=https://img.alicdn.com/imgextra/i4/196993935/O1CN01omV77c1ewH7PwzV2J_!!196993935.jpg width=380 height=385 usemap=#Map2018082101 border=0 /> </a> </div> </div> <div style="margin-left: -3%"> <li class=titAll> 男装 </li> <div class=navbox1 style=width:380px> <div class=boxbg>&nbsp;</div> <a target=_blank href="https://uniqlo.tmall.com/p/rd708721.htm?spm=a1z10.1-b-s.w4007-21847209253.209.411e11a66G4sPJ" data-spm-wangpu-module-id=4007-21847209253 data-spm-anchor-id=a1z10.1-b-s.w4007-21847209253.209> <img src=https://img.alicdn.com/imgextra/i3/196993935/O1CN01Tgkzfs1ewH7MgdPMK_!!196993935.jpg width=380 height=385 usemap=#Map2018070101 border=0 /> </a> </div> </div> <div style="margin-left: -3%"> <li class=titAll> 童婴装 </li> <div class=navbox1 style=width:380px> <div class=boxbg>&nbsp;</div> <a target=_blank href="https://uniqlo.tmall.com/p/rd862956.htm?spm=a1z10.1-b-s.w4007-21847209253.210.411e11a66G4sPJ" data-spm-wangpu-module-id=4007-21847209253 data-spm-anchor-id=a1z10.1-b-s.w4007-21847209253.210> <img src=https://img.alicdn.com/imgextra/i4/196993935/O1CN013DHCPP1ewH7UVdcGl_!!196993935.jpg border=0 /> </a> </div> </div> </ul> </div> <div id=list_air class=navBox style="display: none"> <div class=add> <img class=arrow style=bottom:-10px data-align=btn_air src=https://img.alicdn.com/imgextra/i3/196993935/TB2IFvVhVXXXXbVXXXXXXXXXXXX-196993935.png border=0 /> <span> </span> <img class=cross src=https://img.alicdn.com/imgextra/i4/196993935/TB2ZQF0iXXXXXaKXpXXXXXXXXXX-196993935.png /> </div> <ul class="cnt_b cntAll"> <div> <li class=titAll> 女装 </li> <div class=navbox1 style=width:285px> <div class=boxbg>&nbsp;</div> <img class=new_pro_women src=https://img.alicdn.com/imgextra/i2/196993935/O1CN01SLRjDO1ewH8DH34D9_!!196993935.jpg width=285 height=385 border=0 /> </div> </div> <div style="margin-left: -3%"> <li class=titAll> 男装 </li> <div class=navbox1 style=width:285px> <div class=boxbg>&nbsp;</div> <img class=new_pro_men src=https://img.alicdn.com/imgextra/i3/196993935/O1CN01lDSyS31ewH8C9ljis_!!196993935.jpg width=285 height=385 border=0 /> </div> </div> <div style="margin-left: -3%"> <li class=titAll> 童装 </li> <div class=navbox1 style=width:285px> <div class=boxbg>&nbsp;</div> <img class=new_pro_kids src=https://img.alicdn.com/imgextra/i4/196993935/O1CN01I1gg5k1ewH81ljyuz_!!196993935.jpg width=285 height=385 border=0 /> </div> </div> <div style="margin-left: -3%"> <li class=titAll> 婴幼儿 </li> <div class=navbox1 style=width:285px> <div class=boxbg>&nbsp;</div> <img class=new_pro_baby src=https://img.alicdn.com/imgextra/i4/196993935/O1CN018274cn1ewH89uK55P_!!196993935.jpg width=285 height=385 border=0 /> </div> </div> </ul> </div> <div class=wangwang style=position:relative;top:0px;z-index:1> <table style="border-top:1px solid #dcdcdc; margin-bottom:15px" bgcolor=#FFFFFF border=0 cellpadding=0 cellspacing=0 height=40 width=990> <tbody> <tr> <td width=399> <table id=wangwang-dis style="font-size:12px; color:#000; display: none" border=0 cellpadding=0 cellspacing=0 width=410> <tbody> <tr> <td> <a target=_blank href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=优衣库官方旗舰店:服务助手&amp;siteid=cntaobao&amp;status=2&amp;charset=utf-8"> <img border=0 src="http://amos.alicdn.com/online.aw?v=2&amp;uid=优衣库官方旗舰店:全自动导购&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" alt="" /> <font style="margin:0 5px 0 5px">客服1</font> </a> </td> <td> <a target=_blank href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=优衣库官方旗舰店:服务助手&amp;siteid=cntaobao&amp;status=2&amp;charset=utf-8"> <img border=0 src="http://amos.alicdn.com/online.aw?v=2&amp;uid=优衣库官方旗舰店:全自动导购02&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" alt="" /> <font style="margin:0 5px 0 5px">客服2</font> </a> </td> <td> <a target=_blank href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=优衣库官方旗舰店:服务助手&amp;siteid=cntaobao&amp;status=2&amp;charset=utf-8"> <img border=0 src="http://amos.alicdn.com/online.aw?v=2&amp;uid=优衣库官方旗舰店:全自动导购03&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" alt="" /> <font style="margin:0 5px 0 5px">客服3</font> </a> </td> <td> <a target=_blank href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=优衣库官方旗舰店:服务助手&amp;siteid=cntaobao&amp;status=2&amp;charset=utf-8"> <img border=0 src="http://amos.alicdn.com/online.aw?v=2&amp;uid=优衣库官方旗舰店:全自动导购04&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" alt="" /> <font style="margin:0 5px 0 5px">客服4</font> </a> </td> <td> <a target=_blank href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=优衣库官方旗舰店:服务助手&amp;siteid=cntaobao&amp;status=2&amp;charset=utf-8"> <img border=0 src="http://amos.alicdn.com/online.aw?v=2&amp;uid=优衣库官方旗舰店:全自动导购05&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" alt="" /> <font style="margin:0 5px 0 5px">客服5</font> </a> </td> </tr> </tbody> </table> </td> <td style="border-right:1px solid #dcdcdc;border-left:1px solid #dcdcdc" align=center height=40 width=175> <img src=https://img.alicdn.com/imgextra/i3/196993935/O1CN01Jn95Oh1ewGzronkJj_!!196993935.jpg height=45 width=292 /> </td> <td style="border-right:0px solid #dcdcdc" align=center height=40 valign=middle width=296> <img src=https://img.alicdn.com/imgextra/i3/196993935/TB2v1ZZbl9J.eBjy0FoXXXyvpXa-196993935.jpg usemap=#MapASXKJFIE536gTDHAJSJLlkls123123123GF border=0 height=45 width=300 /> <map name=MapASXKJFIE536gTDHAJSJLlkls123123123GF> <area coords=233,26,257,39 href="https://uniqlo.tmall.com/p/rd956058.htm?spm=a1z10.3-b-s.w4007-15676986329.17.443a6431P7NCy0#122" target=_blank /> <area coords=259,7,283,20 href=http://uniqlo.tmall.com/p/rd956058.htm#55 target=_blank /> </map> </td> <td align=center valign=middle width=69> <div id=btn2 class=close> <a href="http://favorite.taobao.com/popup/add_collection.htm?id=57303596&amp;itemid=57303596&amp;itemtype=0&amp;ownerid=a46e6d571452e5bb71b604b016cc2738&amp;scjjc=2" target=_blank> <img class=overimg src=https://img.alicdn.com/imgextra/i1/196993935/TB2qbsZkXXXXXbJXpXXXXXXXXXX-196993935.jpg height=34 width=63 /> </a> </div> </td> </tr> </tbody> </table> </div> </div> </div> <div style=height:15px>&nbsp;</div> <script src=https://www.uniqlo.cn/public/image/L1/2020/Header/Js/lib.js></script> <script>var TM_nav = {
+         W: ["#list_women", "https://www.uniqlo.cn/public/image/L1/2020/Header/TM/TM_W.html"],
+         M: ["#list_men", "https://www.uniqlo.cn/public/image/L1/2020/Header/TM/TM_M.html"],
+         K: ["#list_kids", "https://www.uniqlo.cn/public/image/L1/2020/Header/TM/TM_K.html"],
+         B: ["#list_baby", "https://www.uniqlo.cn/public/image/L1/2020/Header/TM/TM_B.html"],
+
+     }
+     for (let i in TM_nav) {
+         $.ajax({
+             method: 'get',
+             url: TM_nav[i][1],
+             success: function (ret) {
+                 $(TM_nav[i][0]).html(ret);
+             }
+
+
+         });
+     }</script> <script>var ratio;
+     var n = $(window).width();
+     $(".box_boss").width(n).css({
+         marginLeft: -n * 0.5
+     });
+     $(".box_show ul li img").width(n * ratio);
+     var z = $(".box_subnav ul li").width();
+     $(".box_subnav ul li").find("img").width(z);
+     $(".box_subnav li").first().find(".current_img").show().css({
+         marginTop: -10
+     });
+     var x = 0;
+     $(".box_subnav ul li").click(function () {
+         x = $(this).index();
+         $(".box_run").stop().animate({
+             marginLeft: -n * ratio * x
+         }, 500);
+         $(".current_img").fadeOut().animate({
+             marginTop: 40
+         }, 200);
+
+         $(this).find(".current_img").fadeIn(50).animate({
+             marginTop: -10
+         }, 200);
+     });
+     $(".left_btn").click(function () {
+         if (0 <
+             x) {
+             x = x - 1
+         } else {
+             x = $(".box_show ul li").length - 1
+         };
+         $(".box_run").animate({
+             marginLeft: -n * ratio * x
+         }, 500);
+         $(".current_img").fadeOut().animate({
+             marginTop: 40
+         }, 200);
+         $(".box_subnav li").eq(x).find(".current_img").fadeIn(50).animate({
+             marginTop: -10
+         }, 200);
+     });
+     $(".right_btn").click(function () {
+         if (x < $(".box_show ul li").length - 1) {
+             x = x + 1
+         } else {
+             x = 0
+         };
+         $(".box_run").animate({
+             marginLeft: -n * ratio * x
+         }, 500)
+         $(".current_img").fadeOut().animate({
+             marginTop: 40
+         }, 200);
+         $(".box_subnav li").eq(x).find(".current_img").fadeIn(50).animate({
+             marginTop: -10
+         }, 200);
+     });
+
+
+
+
+
+     function run() {
+         $(".box_run").stop(true, true);
+         $(".current_img").stop(true, true);
+
+
+
+         if (x < $(".box_show ul li").length - 1) {
+             x = x + 1
+         } else {
+             x = 0
+         };
+         $(".box_run").animate({
+             marginLeft: -n * ratio * x
+         }, 500);
+         $(".current_img").fadeOut().animate({
+             marginTop: 40
+         }, 200);
+         $(".box_subnav li").eq(x).find(".current_img").fadeIn(50).animate({
+             marginTop: -10
+         }, 200);
+     };
+     /*setInterval(run,3000);*/
+     t = setInterval(run, 3000);
+     $(".box_show,.box_subnav ul li").mouseenter(function () {
+         clearInterval(t)
+     }).mouseleave(function () {
+         //setInterval(run,3000)
+         t = setInterval(run, 3000);
+     });</script> <script defer>(function () {
+
+         function get_new_time(pst) {
+             if (typeof (Storage) !== "undefined") {
+                 if (sessionStorage.getItem("u_items") && sessionStorage.getItem("u_items") == pst) {
+
+                     each_item(JSON.parse(sessionStorage.getItem("u_items")));
+                     //console.log("first" + sessionStorage.getItem("u_items"));
+                     //console.log("parse" + JSON.parse(sessionStorage.getItem("u_items")));
+                 } else {
+                     $.getJSON(pst, function (u_items) {
+                         //console.log("get" + u_items);
+                         sessionStorage.setItem("u_items", JSON.stringify(u_items));
+
+
+                         sessionStorage.setItem("j_file", pst);
+                         //console.log("sessionStorage" + sessionStorage.getItem("u_items"));
+                         //console.log("set" + JSON.parse(sessionStorage.getItem("u_items")));
+                         each_item(JSON.parse(sessionStorage.getItem("u_items")));
+                     });
+
+
+                 }
+
+             } else {
+
+                 $.getJSON(pst, function (u_items) {
+
+                     each_item(u_items);
+
+                 });
+
+             }
+
+
+
+
+         }
+
+         function each_item(obj_items) {
+             $.each(obj_items, function (i, u_item) {
+
+                 let u_store = "tm";
+                 let s_class = ["new_pro", "timelimit", "size", "sale", "l3_time"],
+                     s_item = ["women", "men", "kids", "baby"];
+                 let s_href = window.location.origin + window.location.pathname;
+
+                 for (let m = 0; m < s_class.length - 1; m++) {
+                     if (u_item[s_class[m]] != undefined) {
+                         for (let n = 0; n < s_item.length; n++) {
+                             // console.log(u_item[s_class[m]][u_store][s_item[n]]);
+                             //console.log($('.' + s_class[m] + '_' +s_item[n]));
+                             if (u_item[s_class[m]][u_store][s_item[n]] == "" || u_item[s_class[m]][u_store]
+                                 [
+                                     s_item[n]
+                                 ] === undefined) {
+                                 $('.cut_d .' + s_class[m] + '_' + s_item[n]).parents("li").remove();
+                                 $('.' + s_class[m] + '_' + s_item[n]).remove();
+                                 $('.' + s_class[m] + '_' + s_item[n] + '_ut').remove();
+                             }
+
+                             if (s_href == u_item[s_class[m]][u_store][s_item[n]]) {
+                                 $('.' + s_class[m] + '_' + s_item[n]).addClass("on");
+                             }
+
+
+
+
+
+
+                             $('.' + s_class[m] + '_' + s_item[n]).unbind("click");
+
+                             $('.' + s_class[m] + '_' + s_item[n]).bind("click", function () {
+                                 //console.log($(this));
+                                 window.open(u_item[s_class[m]][u_store][s_item[n]], s_class[m] +
+                                     '_' + s_item[n]);
+                             });
+
+                             $('.' + s_class[m] + '_' + s_item[n] + ' a').unbind("click");
+
+                             $('.' + s_class[m] + '_' + s_item[n] + '_ut').unbind("click");
+                             $('.' + s_class[m] + '_' + s_item[n] + '_ut').bind("click", function () {
+                                 switch (u_store) {
+                                     case "tm":
+                                         window.open(u_item[s_class[m]][u_store][s_item[n]] +
+                                             "?keyword=ut", "_blank");
+                                         break;
+                                     default:
+                                         window.open(u_item[s_class[m]][u_store][s_item[n]] +
+                                             "?searchText=ut", "_blank");
+                                 }
+                             });
+                         }
+                     }
+                 }
+
+                 let jtl_id = "";
+                 if (document.getElementsByClassName("l3_time")[0]) {
+                     if ($(".l3_time").attr('id')) {
+                         jtl_id = $(".l3_time").attr('id');
+
+                         set_l3time(u_item, u_store, s_class, jtl_id, "");
+
+                     } else {
+                         jtl_id = $(".l3_time").attr('class').replace(/\s+l3_time|l3_time+\s+|\s+$/gm, "");
+                         set_l3time(u_item, u_store, s_class, jtl_id, "_tl");
+                     }
+                 }
+
+
+
+
+             });
+         }
+
+
+         function set_l3time(u_item, u_store, s_class, jtl_id, s_size) {
+             $('#' + jtl_id + ',.' + jtl_id).html("");
+
+             if (jtl_id && u_item["l3_time"][jtl_id][u_store + "_link"] != "") {
+
+                 //console.log(u_item["l3_time"][jtl_id][u_store + "_link"]);
+
+                 //$('#' + jtl_id + " img,"+'.' + jtl_id + " img").remove();
+
+
+                 $('#' + jtl_id + ',.' + jtl_id).append(
+                     " <img src = '" + u_item["l3_time"][jtl_id][u_store + "_banner" + s_size] + "' > ");
+
+                 $('#' + jtl_id + ',.' + jtl_id).unbind("click");
+                 $('#' + jtl_id + ',.' + jtl_id).click(
+                     function () {
+
+                         window.open(u_item["l3_time"][jtl_id][u_store + "_link"], "_blank");
+
+                     });
+
+                 /*						$('.' + jtl_id).click(function(){
+
+                 							window.open(u_item["l3_time"][jtl_id][u_store + "_link"],"_blank");
+
+                 						});*/
+             } else {
+                 $('#' + jtl_id + ',.' + jtl_id).html("");
+
+             }
+         }
+
+
+         let json_file = "https://www.uniqlo.cn/public/image/L1/2020/Header/Js/Json/nav/2020072001.json";
+
+         get_new_time(json_file);
+
+         let stv = setInterval(function () {
+
+             if (document.getElementsByClassName("stv")[0] || document.getElementsByClassName("l3_time")[
+                     0]) {
+                 get_new_time(json_file);
+                 clearInterval(stv);
+             }
+         }, 100);
+     })();
+
+     window.onscroll = function () {
+         for (let i = 0; i < $("area").length; i++) {
+             $("area")[i].target = "_blank"
+         }
+     }</script> <link rel=stylesheet href=https://www.uniqlo.cn/public/image/L1/2020/Header/CSS/custom.css type=text/css media=screen /> <script src=https://www.uniqlo.cn/public/image/L1/2020/Header/Js/20190303_2.js></script> <script src=https://www.uniqlo.cn/public/image/L1/2020/Header/Js/o_code.js></script> <script src=https://www.uniqlo.cn/public/image/L1/2020/Header/Js/20191021.js></script> <script src=https://www.uniqlo.cn/public/image/L1/2020/Header/Js/l4_store.js></script> <script src=https://www.uniqlo.cn/public/image/L1/2019/common/get-fonts.js></script>
+                            </span>
+        </div>
+        <s class="skin-box-bt"><b></b></s>
+        <script type="text/javascript">
+        if(window.TShop && window.TShop.ModUtil)
+            TShop.ModUtil.initMod(document.getElementById("shop21847209253"), 1);
+    </script>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div> </div>
+		<div id="detail"><div id="J_DetailMeta" class="tm-detail-meta tm-clear">
+<div class="tm-clear">
+
+	
+<div class="tb-property">
+		        <div class="tb-wrap">
+	    			
+<div class="tb-detail-hd">
+    
+  
+-spm="1000983">	
+					 女装 麻混纺宽腿裤 (附腰带)(老爹裤) 424932 优衣库UNIQLO
+	</h1>
+
+			
+ 	<p>
+				
+		        							初上市价格249元						
+			</p>
+                                    </div>
+							 				<!--引入normalBasic-->
+				<div class="tm-fcs-panel">
+    		 	    <dl class="tm-price-panel" id="J_StrPriceModBox">
+        <dt class="tb-metatit">价格</dt>
+        <dd>
+                        </dd>
+    </dl>
+	<script type="data/tpl" id="J_PromoHintText">
+					<!--rullBanner ids:$ids true-->
+
+			</script> 
+                 <dl class="tm-promo-panel" id="J_PromoPrice" data-label="促销价"><dt class="tb-metatit">促销价</dt><dd></dd></dl>
+</div>
+<div class="tb-meta">
+     	        <dl class="tm-delivery-panel" id="J_RSPostageCont"><dt class="tb-metatit">运费</dt><dd>
+            <div class="tb-postAge">
+                <span id="J_AddrSelectTrigger" class="mui_addr_tri"  combo-level="3">至&nbsp;杭州</span>
+                <div id="J_PostageToggleCont" class="tb-postAge-info"></div>
+				            </div>
+                    </dd></dl>
+	    	 
+											</div>
+<ul class="tm-ind-panel">
+                 			<li class="tm-ind-item tm-ind-sellCount " data-label="月销量"></li>
+            <li class="tm-ind-item tm-ind-reviewCount" id="J_ItemRates"></li>
+    	
+								                <li class="tm-ind-item tm-ind-emPointCount" data-spm="1000988">
+                    <a href="//vip.tmall.com/vip/index.htm" target="_blank">
+                        <span class="tm-label">送天猫积分</span>
+                        <span class="tm-count">
+                                                            74
+                                                    </span>
+                    </a>
+                </li>
+			</ul>
+
+				  	<div class="tb-key">
+		<div class="tb-skin">
+    		<div class="tb-sku">
+                																						
+			
+			
+													<dl class="tb-prop tm-sale-prop tm-clear ">
+					<dt class="tb-metatit">尺寸</dt>
+										<dd>
+					<ul data-property="尺寸" class="tm-clear J_TSaleProp     "   >
+			
+					  								  		<li data-value="20518:814018327">
+						<a href="#">
+														<span>155/58A/XS</span>
+						</a>
+					</li>
+						    														
+			
+			
+									
+					  								  		<li data-value="20518:611508272">
+						<a href="#">
+														<span>155/62A/S</span>
+						</a>
+					</li>
+						    														
+			
+			
+									
+					  								  		<li data-value="20518:611508273">
+						<a href="#">
+														<span>160/66A/M</span>
+						</a>
+					</li>
+						    														
+			
+			
+									
+					  								  		<li data-value="20518:860506541">
+						<a href="#">
+														<span>160/70A/L</span>
+						</a>
+					</li>
+						    														
+			
+			
+									
+					  								  		<li data-value="20518:860506542">
+						<a href="#">
+														<span>165/78A/XL</span>
+						</a>
+					</li>
+						    														
+			
+			
+									
+					  								  		<li data-value="20518:903902131">
+						<a href="#">
+														<span>170/82A/XXL</span>
+						</a>
+					</li>
+						    														
+			
+			
+									
+					  								  		<li data-value="20518:903902130">
+						<a href="#">
+														<span>175/88B/XXXL</span>
+						</a>
+					</li>
+						    							</ul>
+			  	</dd>
+			  </dl>
+																		
+			
+			
+													<dl class="tb-prop tm-sale-prop tm-clear tm-img-prop ">
+					<dt class="tb-metatit">颜色分类</dt>
+										<dd>
+					<ul data-property="颜色分类" class="tm-clear J_TSaleProp tb-img     "   >
+			
+					  										<li data-value="1627207:100760300" title="01 乳白色" >
+						<a href="#" style="background:url(//img.alicdn.com/imgextra/i2/196993935/O1CN01k4s2Br1ewH6js88dx-196993935.jpg_40x40q90.jpg) center no-repeat;">
+														<span>01 乳白色</span>
+						</a>
+					</li>
+						    														
+			
+			
+									
+					  										<li data-value="1627207:789152500" title="35 浅褐色" >
+						<a href="#" style="background:url(//img.alicdn.com/imgextra/i4/196993935/O1CN019KkMGE1ewH6djDQdH-196993935.jpg_40x40q90.jpg) center no-repeat;">
+														<span>35 浅褐色</span>
+						</a>
+					</li>
+						    														
+			
+			
+									
+					  										<li data-value="1627207:782784917" title="58 深绿色" >
+						<a href="#" style="background:url(//img.alicdn.com/imgextra/i3/196993935/O1CN0157VffP1ewH6gxjvA1-196993935.jpg_40x40q90.jpg) center no-repeat;">
+														<span>58 深绿色</span>
+						</a>
+					</li>
+						    														
+			
+			
+									
+					  										<li data-value="1627207:756290108" title="69 藏青色" >
+						<a href="#" style="background:url(//img.alicdn.com/imgextra/i2/196993935/O1CN014WofYx1ewH6djEEYK-196993935.jpg_40x40q90.jpg) center no-repeat;">
+														<span>69 藏青色</span>
+						</a>
+					</li>
+						    							</ul>
+			  	</dd>
+			  </dl>
+																		        										    				<dl class="tb-amount tm-clear">
+	<dt  class="tb-metatit">数量</dt>
+	<dd id="J_Amount" >
+		<span class="tb-amount-widget mui-amount-wrap">
+			<input type="text" class="tb-text mui-amount-input" value="1" maxlength="8" title="请输入购买量"/>
+			<span class="mui-amount-btn">
+                <span class="mui-amount-increase">&#xe614;</span>
+                <span class="mui-amount-decrease">&#xe615;</span>
+			</span>
+						<span class="mui-amount-unit">件</span>
+					</span>
+					<em id="J_EmStock" class="tb-hidden">库存<span id="J_SpanStock"></span>件</em>
+				<span id='J_StockTips'>
+											</span>
+	</dd>
+</dl>
+    			                
+				
+				    			
+    <dl id="J_Progressive" class="tb-prop tm-clear tb-hidden">
+        <dt class="tb-metatit">花呗分期</dt>
+        <dd>
+            <ul class="tm-clear">
+                <li><a href="#"><span></span></a><i>已选中</i></li>
+            </ul>
+        </dd>
+    </dl>
+        		<div class="tb-action tm-clear">
+																	                <div  class="tb-btn-buy tb-btn-sku" >
+                    <a id="J_LinkBuy" href="#" rel="nofollow"  data-addFastBuy="true"  title="点击此按钮，到下一步确认购买信息。">立即购买</a>
+                </div>
+							        						            <div class="tb-btn-basket tb-btn-sku "><a href="#" rel="nofollow" id="J_LinkBasket"><i>&#xe612;</i>加入购物车</a></div>
+			            <div class="tb-btn-add tb-btn-sku tb-hidden"><a href="#" rel="nofollow" id="J_LinkAdd"><i>&#xe612;</i>加入购物车</a></div>
+        			</div>
+            				</div>
+        </div>
+	</div>
+	
+		            <div class="tm-ser tm-clear">
+                                                        	            <dl class="tm-clear">
+                                    <dt class="tb-metatit">服务承诺</dt>
+                                <dd class="tm-laysku-dd">
+                    <ul class="tb-serPromise">
+                                                                                                                                                            <li ><a  href="//rule.tmall.com/tdetail-4400.htm"  title="商品支持正品保障服务" target="_blank">
+                                                                        正品保证
+                                </a></li>
+                                                            <li ><a  href="//pages.tmall.com/wh/tmall/fushi/act/mendianzitihelp"  title="消费者可在品牌线下门店自提商品" target="_blank">
+                                                                        门店自提
+                                </a></li>
+                                                                                                                                                                <li ><a  href="//vip.tmall.com/vip/privilege.htm?spm=3.1000588.0.141.2a0ae8&amp;priv=speed"  title="极速退款是为诚信会员提供的退款退货流程的专享特权，额度是根据每个用户当前的信誉评级情况而定" target="_blank">
+                                                                        极速退款
+                                </a></li>
+                                                                                                                                                                <li > <a  href="//pages.tmall.com/wow/seller/act/seven-day"  title="七天无理由退换" target="_blank">
+                                    七天无理由退换
+                                </a></li>
+                                                                            
+                                            </ul>
+                </dd>
+            </dl>
+                                						            	<div class="tm-pay-box">
+                <div class="tm-pay">
+                    <em class="pay-title">支付方式</em>
+				                    <em title="显示所有信息" class="pay-toggler" id="J_Toggler">更多信息</em>
+				                    <div data-spm="1998099674" class="pay-credit J_Paylist" >
+																			                                <a title="支持使用信用卡支付" target="_blank" href="//payservice.alipay.com/intro/index.htm?c=xyk">信用卡<s style="background: url(//img.alicdn.com/tps/i4/TB1gNG3JpXXXXbcXVXXAz6UFXXX-16-16.png) no-repeat center center;"></s></a>
+														                                <a title="支持用绑定了支付宝的银行卡付款" href="//payservice.alipay.com/intro/index.htm?c=kjzf" target="_blank">快捷支付 <s style="background: url(//gtms04.alicdn.com/tps/i4/TB1fnvXJpXXXXcTXpXXAz6UFXXX-16-16.png) no-repeat center center;"></s></a>
+														                                <a title="免费利用花呗额度支付，下月10号还款" href="//payservice.alipay.com/intro/index.htm?c=hb" target="_blank">蚂蚁花呗 <s style="background: url(//gtms03.alicdn.com/tps/i3/TB1rf58JpXXXXc5XFXXAz6UFXXX-16-16.png) no-repeat center center;"></s></a>
+																																										                                <a title="支持使用余额宝付款，边赚边花" href="//payservice.alipay.com/intro/index.htm?c=yeb" target="_blank">余额宝 <s style="background: url(//gtms02.alicdn.com/tps/i2/TB1HAHaJpXXXXX0XFXXAz6UFXXX-16-16.png) no-repeat center center;"></s></a>
+													                    </div>
+                </div>
+            </div>
+						    </div>
+		    						
+		
+    </div>
+</div>
+<div data-spm="1997427645" class="tb-gallery">			
+	
+				
+
+
+
+<div class="tb-booth">
+	<a href="javascript:void(0);">
+		<img id="J_ImgBooth" alt="女装 麻混纺宽腿裤 (附腰带)(老爹裤) 424932 优衣库UNIQLO" src="//img.alicdn.com/imgextra/i4/196993935/O1CN01jdMJXw1ewH74IbyVC_!!0-item_pic.jpg_430x430q90.jpg"   data-hasZoom="700"    />
+	</a>
+</div>
+<div class="tb-thumb-warp ">
+	<a class="tb-thumb-left"><i>&#xe631;</i></a>
+	<div class="tb-thumb-content"> 
+		<ul id="J_UlThumb" class="tb-thumb tm-clear">
+												<li class="tb-selected">
+						 						<a href="#"><img src="//img.alicdn.com/imgextra/i4/196993935/O1CN01jdMJXw1ewH74IbyVC_!!0-item_pic.jpg_60x60q90.jpg" /></a>
+					</li>
+									<li class="">
+												<a href="#"><img src="//img.alicdn.com/imgextra/i3/196993935/O1CN012f4Y5J1ewH71cVbmd-196993935.jpg_60x60q90.jpg" /></a>
+					</li>
+									<li class="">
+												<a href="#"><img src="//img.alicdn.com/imgextra/i4/196993935/O1CN011jnpcu1ewH70o492P-196993935.jpg_60x60q90.jpg" /></a>
+					</li>
+									<li class="">
+												<a href="#"><img src="//img.alicdn.com/imgextra/i4/196993935/O1CN01iy7TAl1ewH71FmmHN-196993935.jpg_60x60q90.jpg" /></a>
+					</li>
+									<li class="">
+												<a href="#"><img src="//img.alicdn.com/imgextra/i3/196993935/O1CN01ZmEVoK1ewH73EOUpO-196993935.jpg_60x60q90.jpg" /></a>
+					</li>
+									</ul>
+	</div>
+	<a class="tb-thumb-right"><i>&#xe632;</i></a>
+</div>
+		<p class="tm-action tm-clear">
+    <span id="J_EditItem"></span>    
+			        <a id="J_AddFavorite" href="javascript:;" data-aldurl="//ald.taobao.com/recommend.htm?appId=03136&itemId=613256380507 " class="favorite"><i></i><span>收藏商品</span></a>
+			<!-- ruleBanner-->
+			<script id="J_AddFavorite_Act" type="text/template">
+				<!--rullBanner ids:$ids true-->
+
+			</script>
+				<span id="J_CollectCount"></span>    </p></div>
+ 
+ 	<form id="J_FrmBid" name="bidForm" action="" method="post">
+        <input type="hidden" name="title" value="女装 麻混纺宽腿裤 (附腰带)(老爹裤) 424932 优衣库UNIQLO" />
+		<input type="hidden" name="x_id" value="" />
+        <input type="hidden" name="seller_id" value="a46e6d571452e5bb71b604b016cc2738" />
+		<input type="hidden" name="seller_nickname" value="优衣库官方旗舰店" />
+                 <input type="hidden" name="who_pay_ship" value="卖家承担运费" />
+        <input type="hidden" name="photo_url" value= "i4/196993935/O1CN01jdMJXw1ewH74IbyVC_!!0-item_pic.jpg" />        <input type="hidden" name="region" value="上海" />    	<input type="hidden" name="auto_post" value="false" />
+                	<input type="hidden" name="etm" value="post" />
+                
+        <input type="hidden" name="virtual" value="false" />
+    	<input type="hidden" name="rootCatId" value="16" />    	
+		<input type="hidden" name="auto_post1" value="" />
+		
+		    	
+		<input type="hidden" id="buyer_from" name="buyer_from" value=""/>
+	
+
+    </form>
+			  
+	<script>
+	TShop.poc('buyshow');
+    (function () {
+		TShop.setConfig({
+		detail:{
+			"hideRightRecommend": false ,
+			"showBacktop": true ,
+			"showCartRecommend": true ,
+			"showTabbarRecommend": true ,
+			"showAlbumRecommend": true , 
+			"showDownShelfRecommend": true ,
+			"showRightRecommend": true ,
+			"showStandardGuide": true 		},
+		
+
+
+
+	
+
+	
+"noSkipMode":{
+	timeout : 8000,
+	tradeResult:{
+		cartEnable: true ,
+        cartType:2,
+        tradeEnable: true ,
+        tradeType: 2 ,
+        tradeDisableTypeEnum:""    }
+		},
+				"descAnchors":[{"anchorId":"desc-module-1","markId":"120","moduleId":119,"moduleName":"商家说明","type":"cat_mod"},{"anchorId":"desc-module-2","markId":"54","moduleId":53,"moduleName":"细节图","type":"cat_mod"},{"anchorId":"desc-module-3","markId":"118","moduleId":117,"moduleName":"尺寸及试穿","type":"cat_mod"}]
+			});
+	
+	  TShop.Setup(
+	  	{"valItemInfo":{"skuList":[{"names":"155/58A/XS 01 乳白色 ","pvs":"20518:814018327;1627207:100760300","skuId":"4321822265064"},{"names":"155/62A/S 01 乳白色 ","pvs":"20518:611508272;1627207:100760300","skuId":"4321822265065"},{"names":"160/66A/M 01 乳白色 ","pvs":"20518:611508273;1627207:100760300","skuId":"4321822265066"},{"names":"160/70A/L 01 乳白色 ","pvs":"20518:860506541;1627207:100760300","skuId":"4321822265067"},{"names":"165/78A/XL 01 乳白色 ","pvs":"20518:860506542;1627207:100760300","skuId":"4321822265068"},{"names":"170/82A/XXL 01 乳白色 ","pvs":"20518:903902131;1627207:100760300","skuId":"4321822265069"},{"names":"175/88B/XXXL 01 乳白色 ","pvs":"20518:903902130;1627207:100760300","skuId":"4321822265070"},{"names":"155/58A/XS 35 浅褐色 ","pvs":"20518:814018327;1627207:789152500","skuId":"4321822265071"},{"names":"155/62A/S 35 浅褐色 ","pvs":"20518:611508272;1627207:789152500","skuId":"4321822265072"},{"names":"160/66A/M 35 浅褐色 ","pvs":"20518:611508273;1627207:789152500","skuId":"4321822265073"},{"names":"160/70A/L 35 浅褐色 ","pvs":"20518:860506541;1627207:789152500","skuId":"4321822265074"},{"names":"165/78A/XL 35 浅褐色 ","pvs":"20518:860506542;1627207:789152500","skuId":"4321822265075"},{"names":"170/82A/XXL 35 浅褐色 ","pvs":"20518:903902131;1627207:789152500","skuId":"4321822265076"},{"names":"175/88B/XXXL 35 浅褐色 ","pvs":"20518:903902130;1627207:789152500","skuId":"4321822265077"},{"names":"155/58A/XS 58 深绿色 ","pvs":"20518:814018327;1627207:782784917","skuId":"4321822265078"},{"names":"155/62A/S 58 深绿色 ","pvs":"20518:611508272;1627207:782784917","skuId":"4321822265079"},{"names":"160/66A/M 58 深绿色 ","pvs":"20518:611508273;1627207:782784917","skuId":"4321822265080"},{"names":"160/70A/L 58 深绿色 ","pvs":"20518:860506541;1627207:782784917","skuId":"4321822265081"},{"names":"165/78A/XL 58 深绿色 ","pvs":"20518:860506542;1627207:782784917","skuId":"4321822265082"},{"names":"170/82A/XXL 58 深绿色 ","pvs":"20518:903902131;1627207:782784917","skuId":"4321822265083"},{"names":"175/88B/XXXL 58 深绿色 ","pvs":"20518:903902130;1627207:782784917","skuId":"4321822265084"},{"names":"155/58A/XS 69 藏青色 ","pvs":"20518:814018327;1627207:756290108","skuId":"4321822265085"},{"names":"155/62A/S 69 藏青色 ","pvs":"20518:611508272;1627207:756290108","skuId":"4321822265086"},{"names":"160/66A/M 69 藏青色 ","pvs":"20518:611508273;1627207:756290108","skuId":"4321822265087"},{"names":"160/70A/L 69 藏青色 ","pvs":"20518:860506541;1627207:756290108","skuId":"4321822265088"},{"names":"165/78A/XL 69 藏青色 ","pvs":"20518:860506542;1627207:756290108","skuId":"4321822265089"},{"names":"170/82A/XXL 69 藏青色 ","pvs":"20518:903902131;1627207:756290108","skuId":"4321822265090"},{"names":"175/88B/XXXL 69 藏青色 ","pvs":"20518:903902130;1627207:756290108","skuId":"4321822265091"}],"defSelected":[],"skuMap":{";20518:611508273;1627207:782784917;":{"priceCent":14900,"price":"149.00","stock":350,"skuId":"4321822265080"},";20518:860506541;1627207:782784917;":{"priceCent":14900,"price":"149.00","stock":376,"skuId":"4321822265081"},";20518:814018327;1627207:756290108;":{"priceCent":14900,"price":"149.00","stock":0,"skuId":"4321822265085"},";20518:903902130;1627207:756290108;":{"priceCent":14900,"price":"149.00","stock":0,"skuId":"4321822265091"},";20518:860506542;1627207:756290108;":{"priceCent":14900,"price":"149.00","stock":288,"skuId":"4321822265089"},";20518:860506541;1627207:756290108;":{"priceCent":14900,"price":"149.00","stock":274,"skuId":"4321822265088"},";20518:903902131;1627207:756290108;":{"priceCent":14900,"price":"149.00","stock":78,"skuId":"4321822265090"},";20518:860506542;1627207:782784917;":{"priceCent":14900,"price":"149.00","stock":239,"skuId":"4321822265082"},";20518:611508272;1627207:782784917;":{"priceCent":14900,"price":"149.00","stock":309,"skuId":"4321822265079"},";20518:611508272;1627207:756290108;":{"priceCent":14900,"price":"149.00","stock":13,"skuId":"4321822265086"},";20518:611508273;1627207:756290108;":{"priceCent":14900,"price":"149.00","stock":59,"skuId":"4321822265087"},";20518:814018327;1627207:789152500;":{"priceCent":14900,"price":"149.00","stock":0,"skuId":"4321822265071"},";20518:814018327;1627207:100760300;":{"priceCent":14900,"price":"149.00","stock":0,"skuId":"4321822265064"},";20518:903902131;1627207:782784917;":{"priceCent":14900,"price":"149.00","stock":110,"skuId":"4321822265083"},";20518:903902130;1627207:782784917;":{"priceCent":14900,"price":"149.00","stock":0,"skuId":"4321822265084"},";20518:903902131;1627207:100760300;":{"priceCent":14900,"price":"149.00","stock":187,"skuId":"4321822265069"},";20518:860506541;1627207:789152500;":{"priceCent":14900,"price":"149.00","stock":23,"skuId":"4321822265074"},";20518:611508273;1627207:789152500;":{"priceCent":14900,"price":"149.00","stock":15,"skuId":"4321822265073"},";20518:611508272;1627207:789152500;":{"priceCent":14900,"price":"149.00","stock":9,"skuId":"4321822265072"},";20518:860506542;1627207:100760300;":{"priceCent":14900,"price":"149.00","stock":41,"skuId":"4321822265068"},";20518:611508273;1627207:100760300;":{"priceCent":14900,"price":"149.00","stock":21,"skuId":"4321822265066"},";20518:611508272;1627207:100760300;":{"priceCent":14900,"price":"149.00","stock":3,"skuId":"4321822265065"},";20518:860506541;1627207:100760300;":{"priceCent":14900,"price":"149.00","stock":12,"skuId":"4321822265067"},";20518:903902130;1627207:789152500;":{"priceCent":14900,"price":"149.00","stock":17,"skuId":"4321822265077"},";20518:903902131;1627207:789152500;":{"priceCent":14900,"price":"149.00","stock":259,"skuId":"4321822265076"},";20518:860506542;1627207:789152500;":{"priceCent":14900,"price":"149.00","stock":88,"skuId":"4321822265075"},";20518:903902130;1627207:100760300;":{"priceCent":14900,"price":"149.00","stock":21,"skuId":"4321822265070"},";20518:814018327;1627207:782784917;":{"priceCent":14900,"price":"149.00","stock":0,"skuId":"4321822265078"}},"salesProp":{}},"valLoginIndicator":"//buy.taobao.com/auction/buy.htm?from=itemDetail&id=613256380507","isShowSizeRecommend":false,"isDoubleElevenItem":true,"isHouseholdService":false,"isSevenDaysRefundment":false,"apiBidCount":"//tbskip.taobao.com/json/show_bid_count.htm?itemNumId=613256380507&old_quantity=0&date=1595207132000","valTimeLeft":1005865,"standingDate":0,"tradeParams":{},"api":{"descUrl":"//dscnew.taobao.com/i5/610/250/613256380507/TB1dvAnXP39YK4jSZPc8qtrUFla.desc%7Cvar%5Edesc%3Bsign%5E9de879ec3780ba9ac1d5301a9c692d79%3Blang%5Egbk%3Bt%5E1595378636","httpsDescUrl":"//descnew.taobao.com/i5/610/250/613256380507/TB1dvAnXP39YK4jSZPc8qtrUFla.desc%7Cvar%5Edesc%3Bsign%5E9de879ec3780ba9ac1d5301a9c692d79%3Blang%5Egbk%3Bt%5E1595378636","fetchDcUrl":"//hdc1new.taobao.com/asyn.htm?pageId=1302405363&userId=196993935","validateDcUrl":"//mdetail.tmall.com/validateDc.htm?renderTime=1595410788658&releaseTime=1595410787000&lastVersionMd5=8b93c95f6ae11426125872d88d8539ff&releaseTimeKey=rstime_sid57303596pid1302405363&itemId=613256380507&isNewSystem=true"},"tag":{"isShowMeiliXinde":false,"isMedical":false,"isRightRecommend":true,"isShowEcityIcon":false,"isShowYuanchuanIcon":false,"isBrandAttr":true,"isShowTryReport":false,"isAsynDesc":true,"isBrandSiteRightColumn":true,"isShowHouseIcon":false},"isService":false,"isTripUser":false,"cmCatId":"0","cartEnable":true,"renderSystemServer":"//render.taobao.com","carCascade":false,"isWTContract":false,"isOnlyInMobile":false,"isAreaSell":true,"renderTime":1595410788658,"isMultiPoint":false,"isShowSizeHelper":false,"isMeiz":false,"newSelectCityApi":"//mdskip.taobao.com/json/detailSelectCity.do?isAreaSell=true&itemId=613256380507","initCspuExtraApi":"//ext-mdskip.taobao.com/extension/initCspuExtra.htm","detail":{"isMemberShopItem":false,"isBundleItem":false,"canEditInItemDet":true,"isAllowReport":true,"isHiddenShopAction":false,"isDownShelf":false,"is0YuanBuy":false,"isCarService":false,"isShowEcityBasicSign":false,"isItemAllowSellerView":true,"goNewAuctionFlow":false,"isShowEcityVerticalSign":false,"reviewListType":1,"rxShowTitle":"本品为处方药，请在医师指导下使用。","isVaccine":false,"isHasPos":false,"recommendBigMarkDownEndTime":"1477880000000","isAutoYushou":false,"isOnePriceCar":false,"isVitual3C":false,"rxIcon":"https://gw.alicdn.com/tfs/TB13T_zHHrpK1RjSZTEXXcWAVXa-216-84.png","isFullCarSell":false,"isHideAttentionBtn":false,"isNABundleItem":false,"double11StartTime":"","showDiscountRecommend":false,"enableAliMedicalComponent":true,"isOtcDrug":false,"isYYZY":false,"mlhNewDesc":false,"isMainLiaoSku":false,"isHkMilk":false,"isEnableAppleSku":true,"isHkItem":false,"isShowContentModuleTitle":false,"isRx2Count":true,"isHiddenNonBuyprice":false,"isH5NewLogin":true,"isHkO2OItem":false,"isSavingEnergy":false,"showFushiPoiInfo":false,"defaultItemPrice":"149.00","globalSellItem":false,"isShowEcityDesc":false,"isSkuColorShow":false,"autoccUser":false,"isMenDianInventroy":false,"isMeilihui":false,"isLadderGroupon":false,"isHidePoi":false,"isNewAttraction":true,"isPreSellBrand":false,"loginBeforeCart":false,"isAutoFinancing":false,"showSuperMarketBuy":false,"isPrescriptionDrug":false,"isHasQualification":false,"recommendBigMarkDownStartTime":"1478793600000","pageType":"default","isIFCShop":false,"isAlicomMasterCard":false,"isCarCascade":false,"isDianQiMeiJia":false,"isSkuMemorized":false,"addressLevel":3,"isRx2":false,"isTeMai":false,"allowRate":true,"isShowPreClosed":false,"isO2OStaging":false,"isPurchaseMallVipBuyer":false,"cdn75":false,"isNewMedical":false,"isCarYuEBao":false,"isCyclePurchase":false,"isAliTelecomNew":false,"show9sVideo":true,"isHkDirectSale":false,"isTspace":false,"tryReportDisable":false,"isB2Byao":false,"isRegionLevel":true,"isContractPhoneItem":false,"isYY":false,"supermarketAndQianggou":false,"isZhengChe":false,"isDianZiMendian":false,"isNextDayService":false,"timeKillAuction":false},"apiAddCart":"//cart.taobao.com/add_cart_item.htm?item_id=613256380507","apiBeans":"//count.taobao.com/counter3?keys=SM_368_dsr-196993935,ICCP_1_613256380507","releaseTime":1595410787000,"idsMod":[],"initApi":"//mdskip.taobao.com/core/initItemDetail.htm?isUseInventoryCenter=true&cartEnable=true&service3C=false&isApparel=true&isSecKill=false&tmallBuySupport=true&isAreaSell=true&tryBeforeBuy=false&offlineShop=false&itemId=613256380507&showShopProm=false&isPurchaseMallPage=false&itemGmtModified=1595409885000&isRegionLevel=true&household=false&sellerPreview=false&queryMemberRight=true&addressLevel=3&isForbidBuyItem=false","valPointTimes":1.0,"changeLocationApi":"//mdskip.taobao.com/core/changeLocation.htm?isUseInventoryCenter=true&cartEnable=true&sellerUserTag3=144185556853620864&service3C=false&sellerUserTag2=1170937191942062092&isSecKill=false&isAreaSell=true&sellerUserTag4=35326783423875&offlineShop=false&itemId=613256380507&sellerUserTag=394215278&showShopProm=false&tgTag=false&isPurchaseMallPage=false&isRegionLevel=true&household=false&notAllowOriginPrice=false&addressLevel=3","isTmallComboSupport":false,"serviceIconList":[],"valPointRate":0.5,"tradeType":2,"valMode":128,"initExtraApi":"//ext-mdskip.taobao.com/extension/initExtra.htm","itemDO":{"isInRepository":false,"isSupportTryBeforeBuy":false,"reservePrice":"149.00","imgVedioPic":"https://img.alicdn.com/imgextra/i4/6000000003929/O1CN01VvEbSR1etWjYqGKjs_!!6000000003929-0-tbvideo.jpg","isSecondKillFromMobile":false,"cspuCategorySwitch":false,"isOnline":true,"title":"女装 麻混纺宽腿裤 (附腰带)(老爹裤) 424932 优衣库UNIQLO","isEnterprisePath":false,"showCompanyPurchase":false,"isDcAsyn":true,"feature":"1","attachImgUrl":["//img.alicdn.com/imgextra/i3/196993935/O1CN01AhuHFT1ewH6oWHNeG_!!196993935.jpg","//img.alicdn.com/imgextra/i4/196993935/O1CN01EQfBOk1ewH6r1uDbt_!!196993935.jpg"],"isElecCouponItem":false,"brandSiteId":"0","brandSpecialSold":"false","sellerNickName":"%E4%BC%98%E8%A1%A3%E5%BA%93%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97","isSecondKillFromPC":false,"auctionType":"b","encryptSellerId":"UvFkLOFkGOFvb","prov":"上海","brand":"Uniqlo/优衣库","imgVedioUrl":"//cloud.video.taobao.com/play/u/196993935/p/1/e/1/t/8/256968576324.swf","isDefaultChooseTryBeforeBuy":false,"quantity":2792,"isBidden":false,"hasSku":true,"isNewProGroup":false,"weight":"0","imgVedioID":"256968576324","userId":"196993935","rootCatId":"16","itemId":"613256380507","validatorUrl":"//store.taobao.com/tadget/shop_stats.htm","isCustomizedItem":false,"isEcardAuction":false,"auctionStatus":"0","isSecondKillFromPCAndWap":false,"brandId":"29527","sellProgressiveRate":"3_100_1.60;6_0_4.50;9_0_6.00","spuId":"1562387503","categoryId":"162201"},"rateConfig":{"itemId":613256380507,"sellerId":196993935,"rateScoreCacheDisable":false,"rateSubjectDisable":false,"tryReportDisable":false,"rateScoreDisable":false,"rateEnable":true,"spuId":1562387503,"rateNewChartDisable":false,"listType":1,"rateCloudDisable":false},"rstShopId":57303596,"propertyPics":{";1627207:789152500;":["//img.alicdn.com/imgextra/i4/196993935/O1CN019KkMGE1ewH6djDQdH-196993935.jpg"],"default":["//img.alicdn.com/imgextra/i4/196993935/O1CN01jdMJXw1ewH74IbyVC_!!0-item_pic.jpg","//img.alicdn.com/imgextra/i3/196993935/O1CN012f4Y5J1ewH71cVbmd-196993935.jpg","//img.alicdn.com/imgextra/i4/196993935/O1CN011jnpcu1ewH70o492P-196993935.jpg","//img.alicdn.com/imgextra/i4/196993935/O1CN01iy7TAl1ewH71FmmHN-196993935.jpg","//img.alicdn.com/imgextra/i3/196993935/O1CN01ZmEVoK1ewH73EOUpO-196993935.jpg"],";1627207:756290108;":["//img.alicdn.com/imgextra/i2/196993935/O1CN014WofYx1ewH6djEEYK-196993935.jpg"],";1627207:100760300;":["//img.alicdn.com/imgextra/i2/196993935/O1CN01k4s2Br1ewH6js88dx-196993935.jpg"],";1627207:782784917;":["//img.alicdn.com/imgextra/i3/196993935/O1CN0157VffP1ewH6gxjvA1-196993935.jpg"]},"tmallRateType":0,"selectRegionApi":"//mdskip.taobao.com/core/selectRegion.do?isAreaSell=true&itemId=613256380507","apiItemViews":"//count.taobao.com/counter2?keys=ICVT_7_613256380507&inc=ICVT_7_613256380507&sign=12459f3d49e519c833f4dac0e93ad220726","tagsId":"119809,122881,123905,16385,2049,10241,29697,33281,249858,6146,60418,109570,148481,161793,178689,179713,181249,191489,490498,504322,4614,7174,364034,4107,2059,16395,23563,1282050,1512962,1353218,1618946,71745,89665,194626,21057,13377,8257,10305,20545,28737,29761,33345,36417,36929,39489,48193,52801,212546,241218,198721,156225,137281,167489,184897,186945,188481,189505,455234,281666,4678,4166,364610,369218,2635,4171,11339,24139,1443906,1499202,1591362,1606210,79489,102017,103041,105601,108673,115329,22145,20609,9345,13953,30337,30849,33409,34433,39553,43137,51329,64129,257666,28802,59010,62082,199809,200321,146049,150145,191617,284802,349826,363650,368770,1163,1675,22155,1478274,1550466,1364098,1602178,84673,82625,85697,108225,120001,120513,140994,28865,13505,21697,28353,29889,30401,37569,41665,257730,15554,25282,57026,198849,200897,107202,188609,189121,191681,493250,288962,355010,363714,4811,5835,7371,15563,23755,1374914,1438914,1591490,1619138,96513,101121,120577,129793,166658,6401,30977,31489,32513,37633,65281,209666,257794,48898,198913,206081,206593,149761,105218,162561,167681,179969,190721,192769,292098,363778,368386,388354,1803,3851,4363,6411,7947,11531,1554178,1353474,1364738,1374978,1391874,1606402,1619202,79169,122177,22337,3905,11585,12097,30017,32577,36161,37697,39233,39745,257858,28482,157505,141121,168257,188737,459586,363842,366402,368450,11083,3915,11595,17739,1474370,1478466,1511746,1515330,1547586,1619266,101761,95617,73089,81793,102785,112001,130433,143746,897,21889,27521,35713,257922,199553,82306,101762,141185,162689,186753,191873,444802,273282,3974,7046,11143,348546,349570,363906,907,2443,4491,17803,1478530,1505154,1547650,1373570,1602946,1618306,1631618,69057,83905,95169,131009,16321,9665,15809,8641,21953,30657,33217,257986,21442,41922,198593,155073,146881,113602,144321,155585,156609,161729,162753,164801,188865,427458,520130,299458,1478,4550,363970,364482,758210,531906,3019,2507,1483,4555,6603,1487810,1547714,1385922","url":{"tbskip":"//tbskip.taobao.com","mdskip":"//mdskip.taobao.com","tradeForOldTmallBuy":"//stay.buy.tmall.com/order/confirm_order.htm","tgDetailDomain":"//detail.ju.taobao.com","detailServer":"//detail.taobao.com","buyBase":"//buy.taobao.com/auction","mallList":"//list.tmall.com","extMdskip":"//ext-mdskip.taobao.com","xCrossServer":"//mdetail.tmall.com","tgDomain":"//ju.taobao.com","rate":"//rate.tmall.com","tradeBaseUrl":"//trade.taobao.com/trade","topUploadServerBaseUrl":"//upload.taobao.com","BIDRedirectionitemDomain":"//paimai.taobao.com"},"tradeConfig":{"1":"//buy.taobao.com/auction/buy_now.jhtml","2":"//buy.tmall.com/order/confirm_order.htm","3":"//obuy.tmall.com/home/order/confirm_order.htm","4":"","7":"//tw.taobao.com/buy/auction/buy_now.jhtml"},"valCartInfo":{"itemId":"613256380507","cartUrl":"//cart.taobao.com/my_cart.htm?from=bdetail","statsUrl":"//go.mmstat.com/1.gif?logtype=2&category=cart_{loc}_162201"},"isAliTripHK":false,"selectCityApi":"//mdskip.taobao.com/core/selectCity.htm?isAreaSell=true&itemId=613256380507","getProgressiveInfoApi":"//mdskip.taobao.com/core/getProgressiveInfo.do?platform_type=b2c&fromTryBeforeBuy=false&sellerId=196993935&platform=tmall&category=162201&sellerPercent=3_100_1.60;6_0_4.50;9_0_6.00"}
+	  );
+})();
+</script>
+
+</div>
+<!-- ruleBanner-->
+	<script id="J_SpuMore_Act" type="text/template">
+		<!--rullBanner ids:$ids true-->
+
+	</script>
+	</div>
+</div>
+	
+										
+		                                  		<div id="J_ShopPromtion"><!-- --></div>	
+	            <div id="bd">
+	        <div class="grid-s5m0 tm-clear">
+	            <div class="col-main tm-clear">
+	                <div id="mainwrap" class="main-wrap J_TRegion">
+															                                                         												<div id="J_TabBarBox"><ul id="J_TabBar" class="tabbar tm-clear"></ul></div>
+												
+ <div id="attributes" class="attributes">
+
+
+		<div class="attributes-list" id="J_AttrList">
+                
+                    <div class="tm-clear tb-hidden tm_brandAttr" id="J_BrandAttr"></div>
+        									<p class="attr-list-hd tm-clear"><em>产品参数：</em></p>
+				<ul id="J_AttrUL">
+                
+				                				    																																																																												<li id="J_attrBrandName" title="&nbsp;Uniqlo/优衣库">品牌:&nbsp;Uniqlo/优衣库</li>
+																																																																																																																																																																																																																																																																																																<li title="&nbsp;155/58A/XS&nbsp;155/62A/S&nbsp;160/66A/M&nbsp;160/70A/L&nbsp;165/78A/XL&nbsp;170/82A/XXL&nbsp;175/88B/XXXL">尺寸:&nbsp;155/58A/XS&nbsp;155/62A/S&nbsp;160/66A/M&nbsp;160/70A/L&nbsp;165/78A/XL&nbsp;170/82A/XXL&nbsp;175/88B/XXXL</li>
+                                																																																																																														<li title="&nbsp;自然腰">女裤腰高:&nbsp;自然腰</li>
+                                																																																																																																																																																																																											<li title="&nbsp;01 乳白色&nbsp;35 浅褐色&nbsp;58 深绿色&nbsp;69 藏青色">颜色分类:&nbsp;01 乳白色&nbsp;35 浅褐色&nbsp;58 深绿色&nbsp;69 藏青色</li>
+                                																																																																																														<li title="&nbsp;UQ424932000">货号:&nbsp;UQ424932000</li>
+                                																																																																																														<li title="&nbsp;2020年夏季">年份季节:&nbsp;2020年夏季</li>
+                                																																																																																														<li title="&nbsp;长裤">裤长:&nbsp;长裤</li>
+                                																																																																																														<li title="&nbsp;直筒裤">女裤裤型:&nbsp;直筒裤</li>
+                                																																																																																														<li title="&nbsp;商场同款(线上线下都销售)">销售渠道类型:&nbsp;商场同款(线上线下都销售)</li>
+                                																																																																																														<li title="&nbsp;亚麻55% 粘胶纤维(粘纤)45%">材质成分:&nbsp;亚麻55% 粘胶纤维(粘纤)45%</li>
+                                																					    
+                <!-- 健字号相关-->
+                		    </ul>
+			
+									    									</div>
+</div>
+
+
+
+		<div id="mall-banner">
+				 <div data-spm="1998132255">
+		 			
+			<!--  ESIBanner开始 -->
+		<!-- position : MIDDLE , params:  -->
+						<!--  ESIBanner结束 -->
+			 </div>
+				<!-- ruleBanner-->
+		<div id="J_DescTMS1">
+			<!--rullBanner ids:$ids true-->
+
+		</div>
+		
+							
+	     	    													
+														    	</div>
+<div id="J_TmpActBanner"></div>
+
+
+	                    <div id="J_DcTopRightWrap">
+			<div id="J_DcTopRight" class="J_DcAsyn tb-shop"></div>
+	</div>	                  	 <div id="description" class="J_DetailSection tshop-psm tshop-psm-bdetaildes">
+	<h4 class="hd">商品详情</h4>
+        <div class="content ke-post">
+	描述加载中	</div>
+ </div>
+
+
+	                  	<div id="J_DcBottomRightWrap">
+			<div id="J_DcBottomRight" class="J_DcAsyn tb-shop"></div>
+	
+    <div id="J_ZebraPriceDesc" class="j-mdv" mdv-cls="malldetail/view/zebraBlock" mdv-cfg="{zebraId:'pricedesc_pc',append:true,catId:162201 }"></div>
+	</div>	                  	
+<!-- 试用详情 -->
+<div id="J_Detail">
+			<!-- 新首发试用详情 -->
+	<!-- 专业评测 -->
+	
+				<div id="J_Reviews" class="J_DetailSection">
+		<h4 class="hd">累计评价 <em class="J_ReviewsCount"></em></h4>
+	</div>
+		    	<div class="j-mdv" mdv-cls="malldetail/view/zebraBlock" mdv-cfg="{zebraId:'tmallapkratetab'}" id="J_TmallApkRateTab"></div>
+		
+					        			            	<div class="j-mdv" mdv-cls="malldetail/view/tmsBlock" style="display:none;" mdv-cfg="{tmsId:'tmallapk'}" id="J_TmallApkBuyerList"></div> 
+        	<div id="J_SellerInfo" class="J_DetailSection tb-sellerinfo" data-url="//ext-mdskip.taobao.com/extension/seller_info.htm?user_num_id=196993935&user_tag=394215278&shop_start=1236670506000">
+	   	<h5 class="hd">店铺30天服务情况</h5>
+	    	</div>
+       	<div id="J_TabRecommends" class="J_DetailSection">
+                 	<h4 class="hd">看了又看</h4>
+            </div>
+
+		<div id='official-remind' class="j-mdv" mdv-cls="malldetail/view/zebraBlock" mdv-cfg="{zebraId:'official_remind'}"></div>	</div>
+	                </div>
+	            </div>
+	            	<div class="col-sub">
+					<div id="J_DcShopArchive" class="J_DcAsyn"></div>
+			                    												<div id="J_DcLeft" class="J_DcAsyn tb-shop"></div>
+				
+			</div>
+	        </div>
+	    </div>
+    				<div id="J_DcFt" class="J_DcAsyn tb-shop"></div>
+	
+</div>
+</div>
+
+    
+    <div data-spm="1998132244" id="J_lidi">
+    			
+			<!--  ESIBanner开始 -->
+		<!-- position : BOTTOM , params:  -->
+						<!--  ESIBanner结束 -->
+	    </div>
+                            </div>                                     <div id="footer" data-spm="a2226n1" class="tm-chn--footer ">
+            
+                <div id="tmall-ensure">
+                            <a href="//pages.tmall.com/wow/seller/act/newpinzhibaozhang"></a>
+                <a href="//www.tmall.com/wow/seller/act/seven-day"></a>
+                <a href="//www.tmall.com/wow/seller/act/special-service"></a>
+                                    <a href="//service.tmall.com/support/tmall/tmallHelp.htm"></a>
+                                    </div>
+                <div id="tmall-desc">
+                            <div class="mui-global-fragment-load" data-fragment="tmbase/mui_footer_desc"></div>
+                    </div>
+        <div id="tmall-copyright">
+            <div class="mui-global-fragment-load" data-fragment="tmbase/mui_footer_link"></div>
+        </div>
+            <!-- global footer 2019 -->
+        <div id="server-num">malldetail033006241063.center.na620</div>
+</div>
+</div>
+                            
+
+<div id="LineZing" pagetype="2" shopid="57303596" tmplid="" itemid="613256380507"></div>
+        <script>
+KISSY.ready(function(S){
+    var Win = window;
+    var now = S.now();
+    var timestamp = now - now%3600000;
+    var appId = Win.g_config.appId;
+
+            Win["UA_Opt"] = {
+            LogVal : "UA_Val",
+            MaxMCLog : 10,
+            MaxKSLog : 10,
+            MaxMPLog : 10,
+            MaxFocusLog : 1,
+            Token : new Date().getTime() + ":" + Math.random(),
+            SendMethod : 8,
+            Flag : 12430
+        }
+        Win["UA_Val"] = "";
+    Win["getUA"] = function(){
+        var tmp = Win["UA_Val"];
+        UA_Opt.Token= new Date().getTime() + ":" + Math.random();
+        UA_Opt.reload();
+        return tmp;
+    }
+
+    //S.getScript("http://uaction.aliyuncdn.com/js/ua.js?"+timestamp, function(){
+    S.getScript("//uaction.alicdn.com/js/ua.js?"+timestamp, function(){
+        try{
+            UA_Opt.Token = new Date().getTime() + ":" + Math.random();
+            UA_Opt.reload();
+            var uaexp=new Date();
+            uaexp.setTime(uaexp.getTime()+30*24*60*60*1000);
+            document.cookie="pnm_cku822="+encodeURIComponent(window.getUA())+";path=/;expires="+uaexp.toGMTString();
+        }catch(err){}
+    });
+});
+</script>
+
+
+    <!--
+<link rel="stylesheet" href="//mdetail.tmall.com/validateDc.htm?renderTime=1595410788658&releaseTime=1595410787000&lastVersionMd5=8b93c95f6ae11426125872d88d8539ff&releaseTimeKey=rstime_sid57303596pid1302405363&itemId=613256380507&isNewSystem=true"/>
+-->	        <script>
+KISSY.config({
+    modules: {
+    },
+    "packages": {
+        "mui/car-selector": {
+            "version": "3.0.2",
+            "path": "//g.alicdn.com/tm/car-selector3/3.0.2/",
+            "group": "tm",
+            "ignorePackageNameInUri": true,
+            "debug": true
+        },
+        "mui/crossimage": {
+            "debug": true,
+            "ignorePackageNameInUri": true,
+            "version": "3.1.4",
+            "path": "//g.alicdn.com/mui/crossimage/3.1.4/",
+            "group": "tm"
+        }
+    }
+});
+</script>
+        <script>setTimeout(function() {if (typeof(window.bat) == 'undefined') {var _script = document.createElement('script');_script.src = '//fragment.tmall.com/feeds/bat';_script.onload = _script.onreadystatechange = function(){if(window.bat){window.bat.batTrack("cdn.err","bat",{type:"error",msg:"url,"+window.location.href})}else{new Image().src = "//gm.mmstat.com/tmalldetail.bat.cdn_pc_error";}};document.getElementsByTagName('head')[0].appendChild(_script);}},20000);</script>
+</body>
+</html>
+

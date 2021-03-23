@@ -1,0 +1,66 @@
+{extend name="public/base" /}
+{block name='content'}
+{include file='public/content_header' /}
+<!--数据列表页面-->
+<section class="content">
+    <!--顶部搜索筛选-->
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box">
+                <!--数据列表顶部-->
+                <div class="box-header">
+                    <div>
+                        <div class="box-header with-border">
+                            <div class="btn-group">
+                                <a class="btn flat btn-sm btn-default BackButton">
+                                    <i class="fa fa-arrow-left"></i>
+                                    返回
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-body table-responsive">
+                    <table class="table table-hover table-bordered datatable" width="100%">
+                        <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>商品id</th>
+                            <th>商品名称</th>
+                            <th>规格id</th>
+                            <th>规格名称</th>
+                            <th>规格购买数量</th>
+                            <th>订单id</th>
+                            <th>规格总价</th>
+                            <th>规格金币</th>
+                            <th>规格积分</th>
+                            <th>规格银币</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {foreach name="data" id="item"}
+                        <tr>
+                            <td>{$item.id}</td>
+                            <td>{$item.good_id}</td>
+                            <td>{$item.good_name}</td>
+                            <td>{$item.spec_id}</td>
+                            <td>{$item.spec_name}</td>
+                            <td>{$item.spec_num}</td>
+                            <td>{$item.order_id}</td>
+                            <td>{$item.total_price}</td>
+                            <td>{$item.gold}</td>
+                            <td>{$item.integral}</td>
+                            <td>{$item.silver}</td>
+                        </tr>
+                        {/foreach}
+                        </tbody>
+                    </table>
+                </div>
+                <!-- 数据列表底部 -->
+            </div>
+        </div>
+    </div>
+</section>
+{/block}
+

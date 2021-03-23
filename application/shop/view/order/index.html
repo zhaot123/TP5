@@ -1,0 +1,239 @@
+{extend name="public/base" /}
+{block name='content'}
+{include file='public/content_header' /}
+<!--数据列表页面-->
+<section class="content">
+
+    <!--顶部搜索筛选-->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box">
+                <div class="box-body">
+                    <form class="form-inline searchForm" id="searchForm" action="{:url('index')}" method="GET">
+                        <div class="form-group">
+                            <input value="{$_keywords ? $_keywords : '' ;}" name="_keywords" id="_keywords" class="form-control input-sm" placeholder="订单号">
+                        </div>
+                        <div class="form-group">
+                            <input value="{$user_phone ? $user_phone : '' ;}" name="user_phone" id="user_phone" class="form-control input-sm" placeholder="收款人手机号">
+                        </div>
+                        <div class="form-group">
+                            <input value="{$delivery_id ? $delivery_id : '' ;}" name="delivery_id" id="delivery_id" class="form-control input-sm" placeholder="快递单号">
+                        </div>
+                        <div class="form-group">
+                            <select name="status" id="status" class="form-control input-sm index-order">
+                                <option value="" selected>订单状态</option>
+
+                                <option value="1" {if isset($status) && (int)$status==1}selected{/if}>待付款</option>
+                                <option value="2" {if isset($status) && (int)$status==2}selected{/if}>待发货</option>
+                                <option value="3" {if isset($status) && (int)$status==3}selected{/if}>待收货</option>
+                                <option value="4" {if isset($status) && (int)$status==4}selected{/if}>已收货</option>
+                                <option value="5" {if isset($status) && (int)$status==5}selected{/if}>已完成</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <select name="pay_type" id="pay_type" class="form-control input-sm index-order">
+                                <option value="">支付方式</option>
+                                <option value="1" {if isset($pay_type) && $pay_type==1}selected{/if}>微信</option>
+                                <option value="2" {if isset($pay_type) && $pay_type==2}selected{/if}>支付宝</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-sm btn-primary" type="submit"><i class="fa fa-search"></i> 查询
+                            </button>
+                        </div>
+
+                        <div class="form-group">
+                            <button onclick="clearSearchForm()" class="btn btn-sm btn-default" type="button"><i
+                                    class="fa  fa-eraser"></i> 清空查询
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box">
+
+                <!--数据列表顶部-->
+                <div class="box-header">
+                    <div>
+                        <!--<a title="添加" data-toggle="tooltip" class="btn btn-primary btn-sm " href="{:url('add')}">-->
+                            <!--<i class="fa fa-plus"></i> 添加-->
+                        <!--</a>-->
+                        <a class="btn btn-danger btn-sm AjaxButton" data-toggle="tooltip" title="删除选中数据"
+                           data-confirm-title="删除确认" data-confirm-content="您确定要删除选中的数据吗？" data-id="checked"
+                           data-url="{:url('del')}">
+                            <i class="fa fa-trash"></i> 删除
+                        </a>
+
+                        <a class="btn btn-success btn-sm ReloadButton" data-toggle="tooltip" title="刷新">
+                            <i class="fa fa-refresh"></i> 刷新
+                        </a>
+                    </div>
+                </div>
+
+                <div class="box-body table-responsive">
+                    <table class="table table-hover table-bordered datatable" width="100%">
+                        <thead>
+                        <tr>
+                            <th>
+                                <input id="dataCheckAll" type="checkbox" onclick="checkAll(this)" class="checkbox"
+                                       placeholder="全选/取消">
+                            </th>
+                            <th>ID</th>
+                            <th>订单号</th>
+                            <th>用户姓名</th>
+                            <th>用户手机号</th>
+                            <th>订单状态</th>
+                            <th>订单总价</th>
+                            <th>运费</th>
+                            <th>订单总数</th>
+                            <th>物品名称</th>
+                            <th>物品图片</th>
+                            <th>订单状态</th>
+
+                            <th>支付方式</th>
+                            <th>创建时间</th>
+                            <th>联系电话</th>
+                            <th>地址</th>
+                            <th>快递名称</th>
+                            <th>快递单号</th>
+<!--                            <th>退款状态</th>-->
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {foreach name="data" id="item"}
+                        <tr>
+                            <td>
+                                <input type="checkbox" onclick="checkThis(this)" name="data-checkbox" data-id="{$item.id}" class="checkbox data-list-check" value="{$item.id}" placeholder="选择/取消">
+                            </td>
+                            <td>{$item.id}</td>
+                            <td>{if $item.pay_method == 1}{$item.order_pay_no}{else}{$item.order_no}{/if}</td>
+                            <td>{$item.user.user_name}</td>
+                            <td>{$item.user.mobile}</td>
+                            <td ><span class="btn btn-primary btn-xs">{if $item.status== 0}未知{elseif $item.status == 1}未付款{elseif $item.status == 2}待发货{elseif $item.status == 3}待收货{elseif $item.status == 4}已收货{elseif $item.status == 5}已完成{else}已取消{/if}</span></td>
+                            <td>{$item.total_price+$item.freight_price}</td>
+                            <td>{$item.freight_price}</td>
+                            <td>{$item.total_num}</td>
+                            <td>{$item.good.name}</td>
+                            <td>{if condition="!empty($item.good.attachment)"}
+                                <img alt="" src="{$item.good.attachment}" class ="pimg dataListImg" style="height: 80px">
+                                <div id="outerdiv" style="position:fixed;top:0;left:0;background:rgba(0,0,0,0.7);z-index:2;width:100%;height:100%;display:none;">
+                                    <div id="innerdiv" style="position:absolute;">
+                                        <img id="bigimg" style="border:5px solid #fff;" src="" />
+                                    </div>
+                                </div>
+                                {else}无{/if}
+                            </td>
+                            <td>{if $item.is_delete == 0}<span class="btn btn-success btn-xs">正常</span>{else}<span class="btn btn-danger btn-xs">用户删除{/if}</span></td>
+                            <td><span {if $item.pay_type == 1}class="btn btn-success btn-xs"{elseif $item.pay_type == 2}class="btn btn-info btn-xs"{elseif $item.pay_type == 3}class="btn btn-primary btn-xs"{else}class="btn btn-danger btn-xs"{/if}>{$item.pay_type_text}</span></td>
+
+                            <td>{$item.create_time}</td>
+                            <td>{$item.user_phone|default='暂无'}</td>
+                            <td>{$item.user_address|default='暂无'}</td>
+                            <td>{$item.delivery_name|default='暂无'}</td>
+                            <td>{$item.delivery_id|default='暂无'}</td>
+
+<!--                            <td><span {if $item.refund_status == 0}class="btn btn-success btn-xs"{elseif $item.refund_status == 1}class="btn btn-danger btn-xs"{elseif $item.refund_status == 2}class="btn btn-primary btn-xs"{elseif $item.refund_status == 3}class="btn btn-info btn-xs"{else}class="btn btn-warning btn-xs"{/if}>{$item.refund_status_text}</span></td>-->
+                            <td class="td-do">
+                                <a href="{:url('edit',['id'=>$item.id])}" class="btn btn-primary btn-xs" title="修改" data-toggle="tooltip"><i class="fa fa-pencil"></i></a>
+                                <a class="btn btn-danger btn-xs AjaxButton" data-toggle="tooltip" title="删除" data-id="{$item.id}" data-confirm-title="删除确认" data-confirm-content='您确定要删除ID为 <span class="text-red">{$item.id}</span> 的数据吗' data-url="{:url('del')}"><i class="fa fa-trash"></i></a>
+                                {if $item.status == 2 && $item.is_delete == 0}
+                                <a href="{:url('/shop/order/deliverOrder',['id'=>$item.id])}" class="btn btn-success btn-xs" title="发货" data-toggle="tooltip"><i class="fa fa-plane"></i></a>
+                                {/if}
+                                {if $item.status == 3 && $item.is_delete == 0}
+                                <a href="{:url('/shop/order/shouhuo',['id'=>$item.id])}" class="btn btn-link btn-xs" title="收货" data-toggle="tooltip"><i class="fa fa-check"></i></a>
+                                {/if}
+
+                                {if $item.status == 3 && $item.is_delete == 0}
+                                <a class="btn btn-success btn-xs AjaxButton" data-toggle="tooltip" title="确认收货" data-id="{$item.id}" data-confirm-title="确认收货"  data-url="{:url('sures')}"><i class="fa fa-check"></i></a>
+
+                                {/if}
+                            </td>
+                        </tr>
+                        {/foreach}
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- 数据列表底部 -->
+                <div class="box-footer">
+                    {$page|raw}
+                    <label class="control-label pull-right" style="margin-right: 10px; font-weight: 100;">
+                        <small>共{$total}条记录</small>&nbsp;
+                        <small>每页显示</small>
+                        &nbsp;
+                        <select class="input-sm" onchange="changePerPage(this)">
+                            <option value="10" {if $admin.per_page==10}selected{/if}>10</option>
+                            <option value="20" {if $admin.per_page==20}selected{/if}>20</option>
+                            <option value="30" {if $admin.per_page==30}selected{/if}>30</option>
+                            <option value="50" {if $admin.per_page==50}selected{/if}>50</option>
+                            <option value="100" {if $admin.per_page==100}selected{/if}>100</option>
+                        </select>
+                        &nbsp;
+                        <small>条记录</small>
+                    </label>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    $(function(){
+        $(".pimg").click(function(){
+            var _this = $(this);//将当前的pimg元素作为_this传入函数
+            imgShow("#outerdiv", "#innerdiv", "#bigimg", _this);
+        });
+    });
+    function imgShow(outerdiv, innerdiv, bigimg, _this){
+        var src = _this.attr("src");//获取当前点击的pimg元素中的src属性
+        $(bigimg).attr("src", src);//设置#bigimg元素的src属性
+
+        /*获取当前点击图片的真实大小，并显示弹出层及大图*/
+
+        $("<img/>").attr("src",src).on('load',function(){
+            var windowW = $(window).width();//获取当前窗口宽度
+            var windowH = $(window).height();//获取当前窗口高度
+            var realWidth = this.width;//获取图片真实宽度
+            var realHeight = this.height;//获取图片真实高度
+            var imgWidth, imgHeight;
+            var scale = 0.8;//缩放尺寸，当图片真实宽度和高度大于窗口宽度和高度时进行缩放
+
+            if (realHeight > windowH * scale) { //判断图片高度
+                imgHeight = windowH * scale; //如大于窗口高度，图片高度进行缩放
+                imgWidth = imgHeight / realHeight * realWidth; //等比例缩放宽度
+                if (imgWidth > windowW * scale) { //如宽度扔大于窗口宽度
+                    imgWidth = windowW * scale; //再对宽度进行缩放
+                }
+            }else if (realWidth > windowW * scale) { //如图片高度合适，判断图片宽度
+                imgWidth = windowW * scale; //如大于窗口宽度，图片宽度进行缩放
+                imgHeight = imgWidth / realWidth * realHeight; //等比例缩放高度
+            }else { //如果图片真实高度和宽度都符合要求，高宽不变
+                imgWidth = realWidth;
+                imgHeight = realHeight;
+            }
+            $(bigimg).css("width",imgWidth);//以最终的宽度对图片缩放
+
+            var w = (windowW-imgWidth)/2;//计算图片与窗口左边距
+            var h = (windowH-imgHeight)/2;//计算图片与窗口上边距
+            $(innerdiv).css({"top":h, "left":w});//设置#innerdiv的top和left属性
+            $(outerdiv).fadeIn("fast");//淡入显示#outerdiv及.pimg
+        })
+
+        $("#outerdiv").click(function(){
+            $(this).fadeOut("fast");
+        })
+    }
+
+</script>
+
+
+{/block}
+

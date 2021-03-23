@@ -1,0 +1,12 @@
+[2019-07-13 01:59:48][info] 1
+[2019-07-13 01:59:48][debug] begin notify
+[2019-07-13 01:59:48][debug] call back， return xml:<xml><return_code><![CDATA[FAIL]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+[2019-07-13 01:59:52][info] 1
+[2019-07-13 01:59:52][debug] begin notify
+[2019-07-13 01:59:52][debug] call back， return xml:<xml><return_code><![CDATA[FAIL]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+[2019-07-13 01:59:53][info] 1
+[2019-07-13 01:59:53][debug] begin notify
+[2019-07-13 01:59:53][debug] call back， return xml:<xml><return_code><![CDATA[FAIL]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>
+[2019-07-13 05:38:04][info] 1
+[2019-07-13 05:38:04][debug] begin notify
+[2019-07-13 05:38:04][debug] call back， return xml:<xml><return_code><![CDATA[FAIL]]></return_code><return_msg><![CDATA[OK]]></return_msg></xml>

@@ -1,0 +1,238 @@
+
+{extend name='public/base' /}
+{block name='content'}
+{include file='public/content_header' /}
+    <section class="content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box box-primary">
+                    <!-- 表单头部 -->
+                    <div class="box-header with-border">
+                        <div class="btn-group">
+                            <a class="btn flat btn-sm btn-default BackButton">
+                                <i class="fa fa-arrow-left"></i>
+                                返回
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 表单 -->
+                    <form id="dataForm" class="form-horizontal dataForm" action="" method="post"
+                          enctype="multipart/form-data">
+                        <!-- 表单字段区域 -->
+                        <div class="box-body">
+                            <div class="form-group">
+                                <label for="user_name" class="col-sm-2 control-label">用户昵称</label>
+                                <div class="col-sm-10 col-md-4">
+                                    <input id="user_name" name="user_name" value="{$data.user.user_name|default=''}"
+                                           placeholder="请输入用户名" type="text" class="form-control field-text" disabled>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="mobiles" class="col-sm-2 control-label">用户手机号</label>
+                                <div class="col-sm-10 col-md-4">
+                                    <input id="mobiles" name="mobiles" value="{$data.user.mobile|default=''}"
+                                           placeholder="请输入手机号" type="text" class="form-control field-text" disabled>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="code" class="col-sm-2 control-label">二维码</label>
+                                <div class="col-sm-10 col-md-4">
+                                    <input id="code" name="code" placeholder="请上传头像" {if
+                                           isset($data.code)}data-initial-preview="{$data.code}" {/if} type="file"
+                                    class="form-control field-image" disabled >
+                                </div>
+
+                            </div>
+                            <script>
+                                $('#code').fileinput({
+                                    language: 'zh',
+                                    overwriteInitial: true,
+                                    browseLabel: '浏览',
+                                    initialPreviewAsData: true,
+                                    dropZoneEnabled: false,
+                                    showUpload: false,
+                                    showRemove: false,
+                                    allowedFileTypes: ['image'],
+                                    maxFileSize: 10240,
+                                });
+                            </script>
+                            <div class="form-group">
+                                <label for="status" class="col-sm-2 control-label">审核状态</label>
+                                <div class="col-sm-10 col-md-4">
+                                    <input id="status" name="status" value="{if condition="$data.status == 0"}提现未通过{elseif condition="$data.status == 1"}审核中{else}提现成功{/if}" placeholder="请输入姓名"
+                                           type="tel" maxlength="11" class="form-control field-mobile" disabled>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="content" class="col-sm-2 control-label">描述</label>
+                                <div class="col-sm-10 col-md-4">
+                                    <input id="content" name="content" value="{$data.content|default=''}"
+                                           placeholder="填写描述" type="text" class="form-control field-text" >
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="admin" class="col-sm-2 control-label">管理员</label>
+                                <div class="col-sm-10 col-md-4">
+                                    <input id="admin" name="admin" value="{$data.admin.username|default=''}"
+                                           placeholder="管理员" type="text" class="form-control field-text" disabled>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <!-- 表单底部 -->
+                        <div class="box-footer">
+                            {:token()}
+                            <div class="col-sm-2">
+                            </div>
+                            <div class="col-sm-10 col-md-4">
+                                {if !isset($data)}
+                                <!--                            <div class="btn-group pull-right">-->
+                                <!--                                <label class="createContinue">-->
+                                <!--                                    <input type="checkbox" value="1" id="_create" name="_create"-->
+                                <!--                                           title="继续添加数据">继续添加</label>-->
+                                <!--                            </div>-->
+                                {/if}
+                                {if condition='$data.status == 1'}
+                                <div class="btn-group">
+                                    <a  data-url="{:url('pass',['id'=>$data.id,'type'=>1])}" class="btn flat btn-info AjaxButton" title="确认" data-confirm-content="确认提现?" data-toggle="tooltip">
+                                        确认
+                                    </a>
+                                </div>
+                                <div class="btn-group">
+
+                                    <a href="#"
+                                       class="btn flat btn-info  btn-danger "  onclick="unpass(id = {$data.id})" title="反驳" data-confirm-content="确认反驳?"  data-toggle="tooltip">
+                                        反驳
+                                    </a>
+
+                                    <script>
+                                        function unpass(id){
+
+                                            lock = false;
+                                            layer.open({
+                                                type: 1,
+                                                title: '反驳描述',
+                                                area: ['500px', '300px'],
+                                                shade: 0.4,
+                                                btn: ['确定', '取消'],
+                                                content :"<div class=\"form-group\">\n" +
+                                                    "                            <label for=\"content\" class=\"col-sm-4 control-label\">反驳理由</label>\n" +
+                                                    "                            <div class=\" col-sm-6\">\n" +
+                                                    "                                <input id=\"contents\" name=\"contents\" value=\"{$data.content|default=''}\" placeholder=\"请输入描述\"\n" +
+                                                    "                                       type=\"text\" maxlength=\"11\" class=\"form-control field-mobile \" style='width:300px;height: 150px'>\n" +
+                                                    "                            </div>\n" +
+                                                    "                        </div>",
+                                                scrollbar: false ,
+                                                yes: function(index){
+                                                    if (lock != true){
+                                                        lock =true;
+                                                        content = $("#contents").val();
+                                                        console.log(content);
+                                                        $(".layui-layer-btn0").attr('disabled',"disabled");
+                                                        money = $("#coin").val();
+                                                        $.post("/user/user_withdraw/unpass",{id:id,content:content},function(data){
+                                                            console.log(data);
+                                                            if(data  == 1){
+                                                                layer.msg("操作成功");
+
+                                                                lock =true;
+                                                                setTimeout(function(){
+                                                                    window.location.reload();
+                                                                }, 2000);
+
+
+                                                            }
+                                                            if (data == 2){
+                                                                layer.msg('操作失败');
+                                                                lock =true;
+                                                                setTimeout(function(){
+                                                                    window.location.reload();
+                                                                }, 2000);
+                                                            }
+                                                            if (data == 3){
+                                                                layer.msg('日志生成失败');
+                                                                lock =true;
+                                                                setTimeout(function(){
+                                                                    window.location.reload();
+                                                                }, 2000);
+                                                            }
+
+                                                        })
+                                                    }
+                                                },
+
+                                            });
+                                        }
+                                    </script>
+                                </div>
+                                {/if}
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        /** 表单验证 **/
+        $.validator.addMethod("isMobile", function(value, element) {
+            var length = value.length;
+            var mobile = /^(13[0-9]{9})|(18[0-9]{9})|(14[0-9]{9})|(17[0-9]{9})|(15[0-9]{9})$/;
+            return this.optional(element) || (length == 11 && mobile.test(value));
+        }, "请正确填写您的手机号码");
+        $('#dataForm').validate({
+            rules: {
+                'id_number': {
+                    required: true,
+                },
+                'mobile': {
+                    required: true,
+                    isMobile: true,
+                },
+                'name': {
+                    required: true,
+                },
+                'bank': {
+                    required: true,
+                },
+                'bank_name': {
+                    required: true,
+                },
+                'bank_code': {
+                    required: true,
+                    digits  : true,
+                },
+                'alipay_code': {
+                    required : true,
+                },
+
+
+            },
+            messages: {
+                'id_number': {
+                    required: "身份证号不能为空",
+                },
+                'mobile': {
+                    required: "手机号不能为空",
+                },
+                'name': {
+                    required: "姓名不能为空",
+                },
+                'bank': {
+                    required: "开户行不能为空",
+                },
+                'bank_name': {
+                    required: "银行名不能为空",
+                },
+                'bank_code': {
+                    required: "银行卡号不能为空",
+                },
+                'alipay_code': {
+                    required: "阿里账号不能为空",
+                },
+
+            }
+        });
+    </script>
+{/block}

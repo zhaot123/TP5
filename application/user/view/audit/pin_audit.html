@@ -1,0 +1,239 @@
+{extend name="public/base" /}
+{block name='content'}
+{include file='public/content_header' /}
+<!--数据列表页面-->
+<section class="content">
+
+    <!--顶部搜索筛选-->
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box">
+
+                <!--数据列表顶部-->
+                <div class="box-header">
+                    <div>
+
+                        <a class="btn btn-danger btn-sm AjaxButton" data-toggle="tooltip" title="删除选中数据"
+                        data-confirm-title="删除确认" data-confirm-content="您确定要删除选中的数据吗？" data-id="checked"
+                        data-url="{:url('del')}">
+                        <i class="fa fa-trash"></i> 删除
+                        </a>
+
+                        <a class="btn btn-success btn-sm ReloadButton" data-toggle="tooltip" title="刷新">
+                            <i class="fa fa-refresh"></i> 刷新
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="box-body table-responsive">
+                    <table class="table table-hover table-bordered datatable" width="100%">
+                        <thead>
+                        <tr>
+                            <th>
+                                <input id="dataCheckAll" type="checkbox" onclick="checkAll(this)" class="checkbox"
+                                       placeholder="全选/取消">
+                            </th>
+                            <th>ID</th>
+                            <th>用户id</th>
+                            <th>用户手机号</th>
+                            <th>拼多多名称</th>
+                            <th>拼多多首页</th>
+
+                            <th>审核状态</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {foreach name="data" id="item"}
+                        <tr>
+                            <td>
+                                <input type="checkbox" onclick="checkThis(this)" name="data-checkbox"
+                                       data-id="{$item.id}" class="checkbox data-list-check" value="{$item.id}"
+                                       placeholder="选择/取消">
+                            </td>
+                            <td>{$item.id}</td>
+                            <td>{$item.user_id}</td>
+                            <td>{$item.user.mobile}</td>
+                            <td>{$item.pin_name}</td>
+
+                            <td>
+                                {if condition = "!empty($item.pin_home)"}
+                                <img alt=""  src="{$item.pin_home}" class ="pimg" style="height: 80px">
+                                <div id="outerdiv" style="position:fixed;top:0;left:0;background:rgba(0,0,0,0.7);z-index:2;width:100%;height:100%;display:none;">
+                                    <div id="innerdiv" style="position:absolute;">
+                                        <img id="bigimg" style="border:5px solid #fff;" src="" />
+                                    </div>
+                                </div>
+                                {else}
+                                {/if}
+                            </td>
+
+
+
+                            <td>{if $item.status == 1}<input class=" btn btn-primary"  type="button" value="审核中">{elseif $item.status == 0}<input class=" btn btn-danger"  type="button" value="审核失败">{
+                                }{else}<input class=" btn btn-primary"  type="button" value="审核成功">{/if}</td>
+                            <td class="td-do">
+
+                                {if condition="$item.status == 1"}
+
+                                <a href="#"
+                                   class="btn btn-success btn-xs"  onclick="pass(id = {$item.id})" title="确认" data-toggle="tooltip">
+                                    <i class="fa fa-check"></i>
+                                </a>
+                                <a href="#"
+                                   class="btn btn-danger btn-xs"  onclick="unpass(id = {$item.id})" title="反驳" data-toggle="tooltip">
+                                    <i class="fa fa-times"></i>
+                                </a>
+
+                                {/if}
+                                <script>
+                                    function pass(id){
+
+                                        lock = false;
+                                        layer.open({
+                                            type: 1,
+                                            title: '通过描述',
+                                            area: ['500px', '300px'],
+                                            shade: 0.4,
+                                            btn: ['确定', '取消'],
+                                            content :"<div class=\"form-group\">\n" +
+                                                "                            <label for=\"content\" class=\"col-sm-4 control-label\">通过描述</label>\n" +
+                                                "                            <div class=\" col-sm-6\">\n" +
+                                                "                                <input id=\"content\" name=\"content\" value=\"{$data.content|default=''}\" placeholder=\"请输入描述\" value=\"成功\"\n"+
+                                                "                                       type=\"text\" maxlength=\"11\" class=\"form-control field-mobile\" style='width:300px;height: 150px'>\n" +
+                                                "                            </div>\n" +
+                                                "                        </div>",
+                                            scrollbar: false ,
+                                            yes: function(index){
+                                                if (lock != true){
+                                                    lock =true;
+                                                    $(".layui-layer-btn0").attr('disabled',"disabled");
+                                                    money = $("#coin").val();
+                                                    content = $("#content").val();
+                                                    $.post("/user/audit/pinPass",{id:id,content:content},function(data){
+                                                        if(data  == 1){
+                                                            layer.msg("操作成功");
+
+                                                            lock =true;
+                                                            setTimeout(function(){
+                                                                window.location.reload();
+                                                            }, 2000);
+                                                        }
+                                                        if (data == 2){
+                                                            layer.msg('操作失败');
+                                                            lock =true;
+                                                            setTimeout(function(){
+                                                                window.location.reload();
+                                                            }, 2000);
+                                                        }
+                                                        if (data == 3){
+                                                            layer.msg('日志生成失败');
+                                                            lock =true;
+                                                            setTimeout(function(){
+                                                                window.location.reload();
+                                                            }, 2000);
+                                                        }
+
+
+                                                    })
+                                                }
+                                            },
+
+                                        });
+                                    }
+                                </script>
+                                <script>
+                                    function unpass(id){
+
+                                        lock = false;
+                                        layer.open({
+                                            type: 1,
+                                            title: '反驳描述',
+                                            area: ['500px', '300px'],
+                                            shade: 0.4,
+                                            btn: ['确定', '取消'],
+                                            content :"<div class=\"form-group\">\n" +
+                                                "                            <label for=\"content\" class=\"col-sm-4 control-label\">反驳描述</label>\n" +
+                                                "                            <div class=\" col-sm-6\">\n" +
+                                                "                                <input id=\"content\" name=\"content\" value=\"{$data.content|default=''}\" placeholder=\"请输入描述\"\n" +
+                                                "                                       type=\"text\" maxlength=\"11\" class=\"form-control field-mobile\" style='width:300px;height: 150px'>\n" +
+                                                "                            </div>\n" +
+                                                "                        </div>",
+                                            scrollbar: false ,
+                                            yes: function(index){
+                                                if (lock != true){
+                                                    lock =true;
+                                                    $(".layui-layer-btn0").attr('disabled',"disabled");
+                                                    money = $("#coin").val();
+                                                    content = $("#content").val();
+                                                    $.post("/user/certification/pinUnpass",{id:id,content:content},function(data){
+                                                        if(data  == 1){
+                                                            layer.msg("操作成功");
+
+                                                            lock =true;
+                                                            setTimeout(function(){
+                                                                window.location.reload();
+                                                            }, 2000);
+
+
+                                                        }
+                                                        if (data == 2){
+                                                            layer.msg('操作失败');
+                                                            lock =true;
+                                                            setTimeout(function(){
+                                                                window.location.reload();
+                                                            }, 2000);
+                                                        }
+
+                                                    })
+                                                }
+                                            },
+
+                                        });
+                                    }
+                                </script>
+                                <a class="btn btn-danger btn-xs AjaxButton" data-toggle="tooltip" title="删除"
+                                   data-id="{$item.id}" data-confirm-title="删除确认"
+                                   data-confirm-content='您确定要删除ID为 <span class="text-red">{$item.id}</span> 的数据吗'
+                                   data-url="{:url('del')}">
+                                    <i class="fa fa-trash"></i>
+                                </a>
+
+
+                            </td>
+                        </tr>
+                        {/foreach}
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- 数据列表底部 -->
+                <div class="box-footer">
+                    {$page|raw}
+                    <label class="control-label pull-right" style="margin-right: 10px; font-weight: 100;">
+                        <small>共{$total}条记录</small>&nbsp;
+                        <small>每页显示</small>
+                        &nbsp;
+                        <select class="input-sm" onchange="changePerPage(this)">
+                            <option value="10" {if $admin.per_page==10}selected{/if}>10</option>
+                            <option value="20" {if $admin.per_page==20}selected{/if}>20</option>
+                            <option value="30" {if $admin.per_page==30}selected{/if}>30</option>
+                            <option value="50" {if $admin.per_page==50}selected{/if}>50</option>
+                            <option value="100" {if $admin.per_page==100}selected{/if}>100</option>
+                        </select>
+                        &nbsp;
+                        <small>条记录</small>
+                    </label>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+{/block}
+<SCRIPT Language=VBScript><!--
+
+//--></SCRIPT>

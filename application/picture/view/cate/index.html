@@ -1,0 +1,119 @@
+{extend name="public/base" /}
+{block name='content'}
+{include file='public/content_header' /}
+<section class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box">
+                <div class="box-header">
+                    <div>
+                        <a title="添加" data-toggle="tooltip" class="btn btn-primary btn-sm " href="{:url('add')}">
+                            <i class="fa fa-plus"></i> 添加
+                        </a>
+                        <a class="btn btn-danger btn-sm AjaxButton" data-toggle="tooltip" title="删除选中数据"
+                           data-confirm-title="删除确认" data-confirm-content="您确定要删除选中的数据吗？" data-id="checked"
+                           data-url="{:url('del')}">
+                            <i class="fa fa-trash"></i> 删除
+                        </a>
+                        <a class="btn btn-success btn-sm AjaxButton" data-toggle="tooltip" title="启用选中数据"
+                           data-confirm-title="启用确认" data-confirm-content="您确定要启用选中的数据吗？" data-id="checked"
+                           data-url="{:url('enable')}">
+                            <i class="fa fa-circle"></i> 启用
+                        </a>
+                        <a class="btn btn-warning btn-sm AjaxButton" data-toggle="tooltip" title="禁用选中数据"
+                           data-confirm-title="禁用确认" data-confirm-content="您确定要禁用选中的数据吗？" data-id="checked"
+                           data-url="{:url('disable')}">
+                            <i class="fa fa-circle"></i> 禁用
+                        </a>
+                        <a class="btn btn-success btn-sm AjaxButton" data-toggle="tooltip" title="首页显示此分类"
+                           data-confirm-title="首页显示确认" data-confirm-content="您确定要首页显示此分类吗？" data-id="checked"
+                           data-url="{:url('index_enable')}">
+                            <i class="fa fa-circle"></i> 首页显示
+                        </a>
+                        <a class="btn btn-warning btn-sm AjaxButton" data-toggle="tooltip" title="取消首页显示"
+                           data-confirm-title="取消首页显示" data-confirm-content="您确定要取消首页显示吗？" data-id="checked"
+                           data-url="{:url('index_disable')}">
+                            <i class="fa fa-circle"></i> 取消首页显示
+                        </a>
+                        <a class="btn btn-success btn-sm ReloadButton" data-toggle="tooltip" title="刷新"
+                           data-id="checked" data-url="{:url('del')}">
+                            <i class="fa fa-refresh"></i> 刷新
+                        </a>
+                    </div>
+                </div>
+                <div class="box-body table-responsive">
+                    <table class="table table-hover table-bordered datatable" width="100%">
+                        <thead>
+                        <tr>
+                            <th>
+                                <input id="dataCheckAll" type="checkbox" onclick="checkAll(this)" class="checkbox"
+                                       placeholder="全选/取消">
+                            </th>
+                            <th>ID</th>
+                            <th>分类名称</th>
+                            <th>图片</th>
+                            <th>排序</th>
+                            <th>状态</th>
+                            <th>是否前台显示</th>
+
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {$data|raw}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    $(function(){
+        $(".pimg").click(function(){
+            var _this = $(this);//将当前的pimg元素作为_this传入函数
+            imgShow("#outerdiv", "#innerdiv", "#bigimg", _this);
+        });
+    });
+    function imgShow(outerdiv, innerdiv, bigimg, _this){
+        var src = _this.attr("src");//获取当前点击的pimg元素中的src属性
+        $(bigimg).attr("src", src);//设置#bigimg元素的src属性
+
+        /*获取当前点击图片的真实大小，并显示弹出层及大图*/
+
+        $("<img/>").attr("src",src).on('load',function(){
+            var windowW = $(window).width();//获取当前窗口宽度
+            var windowH = $(window).height();//获取当前窗口高度
+            var realWidth = this.width;//获取图片真实宽度
+            var realHeight = this.height;//获取图片真实高度
+            var imgWidth, imgHeight;
+            var scale = 0.8;//缩放尺寸，当图片真实宽度和高度大于窗口宽度和高度时进行缩放
+
+            if (realHeight > windowH * scale) { //判断图片高度
+                imgHeight = windowH * scale; //如大于窗口高度，图片高度进行缩放
+                imgWidth = imgHeight / realHeight * realWidth; //等比例缩放宽度
+                if (imgWidth > windowW * scale) { //如宽度扔大于窗口宽度
+                    imgWidth = windowW * scale; //再对宽度进行缩放
+                }
+            }else if (realWidth > windowW * scale) { //如图片高度合适，判断图片宽度
+                imgWidth = windowW * scale; //如大于窗口宽度，图片宽度进行缩放
+                imgHeight = imgWidth / realWidth * realHeight; //等比例缩放高度
+            }else { //如果图片真实高度和宽度都符合要求，高宽不变
+                imgWidth = realWidth;
+                imgHeight = realHeight;
+            }
+            $(bigimg).css("width",imgWidth);//以最终的宽度对图片缩放
+
+            var w = (windowW-imgWidth)/2;//计算图片与窗口左边距
+            var h = (windowH-imgHeight)/2;//计算图片与窗口上边距
+            $(innerdiv).css({"top":h, "left":w});//设置#innerdiv的top和left属性
+            $(outerdiv).fadeIn("fast");//淡入显示#outerdiv及.pimg
+        })
+
+        $("#outerdiv").click(function(){
+            $(this).fadeOut("fast");
+        })
+    }
+
+</script>
+{/block}
